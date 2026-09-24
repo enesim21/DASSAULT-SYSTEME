@@ -9,7 +9,7 @@
 Etudiant 1 (référent du groupe) : [Sami BEN SLIMA](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 Etudiant 2 : [Enes AVSAR](mailto:enes.avsar@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 Etudiant 3 : [Johnathan](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
-Etudiant 4 : [Marius BRIGAL](mailto:marius.brigal@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
+Etudiant 4 : [Marius BAUDON-RIGAL](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 Etudiant 5 : [Moubaraka AHAMAD](mailto:moubaraka.ahamad@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 
 ## Pages du site
@@ -20,7 +20,7 @@ Etudiant 5 : [Moubaraka AHAMAD](mailto:moubaraka.ahamad@edu.univ-fcomte.fr?subje
 | [Histoire](https://enesim21.github.io/DASSAULT-SYSTEME/enes.html) | Enes AVSAR |
 | [Solutions et logiciels](https://enesim21.github.io/DASSAULT-SYSTEME/johnathan.html) | Johnathan |
 | [Secteurs d'activité](https://enesim21.github.io/DASSAULT-SYSTEME/sami.html) | Sami BEN SLIMA |
-| [Économie](https://enesim21.github.io/DASSAULT-SYSTEME/marius.html) | Marius BRIGAL |
+| [Économie](https://enesim21.github.io/DASSAULT-SYSTEME/marius.html) | Marius BAUDON-RIGAL |
 | [Écologie](https://enesim21.github.io/DASSAULT-SYSTEME/moubaraka.html) | Moubaraka AHAMAD |
 
 # Présentation du projet
