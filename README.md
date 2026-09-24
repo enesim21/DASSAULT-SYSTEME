@@ -17,7 +17,7 @@ Etudiant 5 : [Moubaraka AHAMAD](mailto:moubaraka.ahamad@edu.univ-fcomte.fr?subje
 | Page | Auteur |
 |------|--------|
 | [Accueil](https://enesim21.github.io/DASSAULT-SYSTEME/index.html) | Groupe 1 |
-| [Histoire](https://enesim21.github.io/DASSAULT-SYSTEME/enes.html) | Enes AVSAR |
+| [Histoire](https://enesim21.github.io/DASSAULT-SYSTEME/enes.html) | Marius|
 | [Solutions et logiciels](https://enesim21.github.io/DASSAULT-SYSTEME/johnathan.html) | Johnathan |
 | [Secteurs d'activité](https://enesim21.github.io/DASSAULT-SYSTEME/sami.html) | Sami BEN SLIMA |
 | [Économie](https://enesim21.github.io/DASSAULT-SYSTEME/marius.html) | Enes AVSAR |
