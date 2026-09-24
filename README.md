@@ -11,18 +11,18 @@ Etudiant 5 : [Moubaraka AHAMAD](mailto:moubaraka.ahamad@edu.univ-fcomte.fr?subje
 
 ## Arborescence du site :
 
-
-`S1.05-06`  
-`├── Acceuil`  
-`    ├── index.html`  
-`    ├── styles.css`  
-`    ├── image_acceuil.png`  
-`    └── logo.png`  
-`├── histoire.html`  
-`├── domaines.html`  
-`├── produits.html`  
-`└── economie.html`  
-
+`
+S1.05-06  
+├── Acceuil  
+    ├── index.html  
+    ├── styles.css  
+    ├── image_acceuil.png  
+    └── logo.png  
+├── histoire.html  
+├── domaines.html  
+├── produits.html  
+└── economie.html  
+`
 
 
 # Présentation du projet
