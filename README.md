@@ -8,11 +8,11 @@ Présentation du positionnement économique et écologique de Dassault Systèmes
 
 ## Membres du groupe
 
-Sami (référent du groupe) : [Page de Sami - Secteurs d'activité](https://enesim21.github.io/DASSAULT-SYSTEME/sami.html)  
-Enes : [Page d'Enes - Histoire de Dassault Systèmes](https://enesim21.github.io/DASSAULT-SYSTEME/enes.html)  
-Johnathan : [Page de Johnathan - Solutions et logiciels](https://enesim21.github.io/DASSAULT-SYSTEME/johnathan.html)  
-Marius : [Page de Marius - Positionnement économique](https://enesim21.github.io/DASSAULT-SYSTEME/marius.html)  
-Moubaraka : [Page de Moubaraka - Enjeux écologiques](https://enesim21.github.io/DASSAULT-SYSTEME/moubaraka.html)  
+Sami (référent du groupe) : [Page Sami](https://enesim21.github.io/DASSAULT-SYSTEME/sami.html)  
+Enes : [Page Enes](https://enesim21.github.io/DASSAULT-SYSTEME/enes.html)  
+Johnathan : [Page Johnathan](https://enesim21.github.io/DASSAULT-SYSTEME/johnathan.html)  
+Marius : [Page Marius](https://enesim21.github.io/DASSAULT-SYSTEME/marius.html)  
+Moubaraka : [Page Moubaraka](https://enesim21.github.io/DASSAULT-SYSTEME/moubaraka.html)  
 
 # Présentation du projet
 
