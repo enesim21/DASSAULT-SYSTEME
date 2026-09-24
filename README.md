@@ -1,27 +1,29 @@
-# SAÉ S1.05-06 - Groupe 1 - Dassault Systèmes
-
 ## Sujet
-
-[Dassault Systèmes : positionnement économique et écologique](https://enesim21.github.io/DASSAULT-SYSTEME/)
+SAÉ S1.05-06 - Groupe 1 - Dassault Systèmes
 
 ## Membres du groupe :
 
-Etudiant 1 (référent du groupe) : [Sami BEN SLIMA](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
+Etudiant 1 : [Sami BEN SLIMA](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06) (référent)
 Etudiant 2 : [Enes AVSAR](mailto:enes.avsar@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 Etudiant 3 : [Johnathan](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 Etudiant 4 : [Marius BAUDON-RIGAL](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 Etudiant 5 : [Moubaraka AHAMAD](mailto:moubaraka.ahamad@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 
-## Pages du site
+## Arborescence du site :
 
-| Page | Auteur |
-|------|--------|
-| [Accueil](https://enesim21.github.io/DASSAULT-SYSTEME/index.html) | Groupe 1 |
-| [Histoire](https://enesim21.github.io/DASSAULT-SYSTEME/enes.html) | Marius|
-| [Solutions et logiciels](https://enesim21.github.io/DASSAULT-SYSTEME/johnathan.html) | Johnathan |
-| [Secteurs d'activité](https://enesim21.github.io/DASSAULT-SYSTEME/sami.html) | Sami BEN SLIMA |
-| [Économie](https://enesim21.github.io/DASSAULT-SYSTEME/marius.html) | Enes AVSAR |
-| [Écologie](https://enesim21.github.io/DASSAULT-SYSTEME/moubaraka.html) | Moubaraka AHAMAD |
+`
+S1.05-06
+├── Acceuil
+    ├── index.html
+    ├── styles.css  
+    ├── image_acceuil.png
+    └── logo.png
+├── histoire.html
+├── domaines.html
+├── produits.html
+└── economie.html
+`
+
 
 # Présentation du projet
 
