@@ -38,8 +38,11 @@ S1.05-06
 
 # Présentation du projet
 
-On a crée un projet sur l'entreprise de Dassault Systèmes Ce projet est réalisé par le groupe 1 du BUT Informatique 1re année de l'IUT Nord Franche-Comté (site de Belfort), dans le cadre de la SAÉ S1.05-06.
-Il consiste à présenter Dassault Systèmes, entreprise française du secteur numérique, à travers un site web et une soutenance.
-Le site met en avant l'histoire de l'entreprise, ses solutions, ses secteurs d'activité, son positionnement économique et ses enjeux écologiques.
-Chaque membre du groupe réalise au moins une page, et l'auteur de chaque page est indiqué en pied de page.
-Le site est construit en HTML5 et CSS3 et hébergé avec GitHub Pages.
+Projet Dassault Systèmes
+
+Ce projet est consacré à l’entreprise Dassault Systèmes. Il a été réalisé dans le cadre d’une SAÉ au département Informatique de l’IUT de Belfort, par les étudiants du groupe S1A1.
+L’objectif est de présenter l’entreprise Dassault Systèmes, une entreprise française spécialisée dans le numérique, à travers un site web ainsi qu’une soutenance.
+
+Notre site revient sur l’histoire de l’entreprise, ses domaines, ses différents produits et son économie. Chaque membre du groupe a réalisé au moins une page du site, avec le nom de son auteur indiqué en pied de page.
+
+Le site a été développé en HTML5 et CSS3 et est hébergé avec GitHub Pages.
