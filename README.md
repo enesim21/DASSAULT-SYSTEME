@@ -12,7 +12,7 @@ Etudiant 5 : [Moubaraka AHAMAD](mailto:moubaraka.ahamad@edu.univ-fcomte.fr?subje
 ## Arborescence du site :
 
 `
-S1.05-06  
+S1.05-06    
 ├── Acceuil  
     ├── index.html  
     ├── styles.css  
