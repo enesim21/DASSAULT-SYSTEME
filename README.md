@@ -3,7 +3,7 @@ SAÉ S1.05-06 - Groupe 1 - Dassault Systèmes
 
 ## Membres du groupe :
 
-Etudiant 1 : [Sami BEN SLIMA](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06) (référent)
+Etudiant 1 : [Sami BEN SLIMA](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06) (référent) 
 Etudiant 2 : [Enes AVSAR](mailto:enes.avsar@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 Etudiant 3 : [Johnathan](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 Etudiant 4 : [Marius BAUDON-RIGAL](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
