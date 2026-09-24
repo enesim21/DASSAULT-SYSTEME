@@ -13,7 +13,7 @@ SAÉ S1.05-06 - Groupe 1 - Dassault Systèmes
 
 ```
 S1.05-06    
-├── Acceuil  
+├── Accueil  
     ├── index.html  
     ├── styles.css  
     ├── image_acceuil.png  
