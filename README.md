@@ -16,12 +16,13 @@ S1.05-06
 ├── Accueil  
     ├── index.html  
     ├── styles.css  
-    ├── image_acceuil.png  
-    └── logo.png  
-├── histoire.html  
-├── domaines.html  
-├── produits.html  
-└── economie.html  
+    ├── image_accueil.png  
+    └── logo.png
+├── images
+    ├── histoire.html  
+    ├── domaines.html  
+    ├── produits.html  
+    └── economie.html  
 ```
 
 
