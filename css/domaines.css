@@ -3,7 +3,8 @@ body {
     padding-inline: 20px;
     max-width: 900px;
     margin-inline: auto;
-	  * {
+}
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -30,21 +31,4 @@ body {
 .navlink{
     color: rgb(2, 72, 133);
 }
-  }
-</style>
-</head>
-<body>
-
-	<nav class="navbar">
-        <img src="logo.png" class="logo">
-        <div class="nav-links">
-            <ul class="nav-links-list">
-                <li><a class="navlink" href="index.html">Acceuil</a></li>
-                <li><a class="navlink" href="histoire.html">Histoire</a></li>
-                <li><a class="navlink" href="domaines.html">Domaines</a></li>
-                <li><a class="navlink" href="produits.html">Produits</a></li>
-                <li><a class="navlink" href="economie.html">Economie</a></li>
-
-            </ul>
-        </div>
-    </nav>
+  
