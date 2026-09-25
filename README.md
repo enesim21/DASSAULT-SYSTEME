@@ -7,7 +7,7 @@
 * [Sami BEN SLIMA](mailto:login@edu.univ-fcomte.fr?subject=SAE) (référent)  
 * [Enes AVSAR](mailto:enes.avsar@edu.univ-fcomte.fr?subject=SAE)  
 * [Johnathan](mailto:login@edu.univ-fcomte.fr?subject=SAE)  
-* [Marius BAUDON-RIGAL](mailto:login@edu.univ-fcomte.fr?subject=SAE)  
+* [Marius BAUDON-RIGAL](mailto:marius.baudon--rigal@edu.univ-fcomte.fr?subject=SAE)  
 * [Moubaraka AHAMAD](mailto:moubaraka.ahamad@edu.univ-fcomte.fr?subject=SAE)  
 
 ## Arborescence du site :
