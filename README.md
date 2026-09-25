@@ -22,8 +22,8 @@ S1.05-06
     └── economie.css
 ├── images
     ├── logo.png
+    ├── favicon.ico
     ├── accueil
-        ├── bienvenue.png
     ├── histoire
     ├── domaines
     ├── produits
