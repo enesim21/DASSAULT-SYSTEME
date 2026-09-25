@@ -31,4 +31,9 @@ body {
 .navlink{
     color: rgb(2, 72, 133);
 }
-  
+
+
+nav > img {
+    width: 200px;
+    height: auto;
+}
