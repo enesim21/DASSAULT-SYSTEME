@@ -34,7 +34,7 @@ nav>img {
 
 
 .div-bienvenue {
-    background-image: url(../images/accueil/bienvenue.png);
+    background-image: url("../images/accueil/bienvenue.png");
     height: 100vh;
     display: flex;
     flex-direction: row;
