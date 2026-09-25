@@ -46,4 +46,4 @@ L’objectif est de présenter l’entreprise Dassault Systèmes, une entreprise
 
 Notre site revient sur l’histoire de l’entreprise, ses domaines, ses différents produits et son économie. Chaque membre du groupe a réalisé au moins une page du site, avec le nom de son auteur indiqué en pied de page.
 
-Le site a été développé en HTML5 et CSS3 et est hébergé avec GitHub Pages.
+Le site a été développé en HTML et CSS et est hébergé avec GitHub Pages.
