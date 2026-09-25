@@ -6,6 +6,12 @@
     list-style: none;
 }
 
+footer{
+    height: 30px;
+    background-color: #494949;
+    padding: 20px;
+}
+
 .navbar {
     background-color: white;
     width: 100%;
