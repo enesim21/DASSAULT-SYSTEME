@@ -1,39 +1,153 @@
-body: not(nav) {
-    font-family: Arial, sans-serif;
-    padding-inline: 20px;
-    max-width: 900px;
-    margin-inline: auto;
-}
 * {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
+/* ========== NAVBAR (repris de ton CSS) ========== */
 .navbar {
-    background-color: white;
-    width: 100%;
-    position: fixed;
-    display: flex;
-    align-items: center ;
-    justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0.5px 15px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
 }
 
-.nav-links-list{
-    display: flex;
-    gap: 20px;
-    font-size: 24px;
-    padding-right: 50px;
+.logo {
+  width: 200px;
+  margin: 10px;
 }
 
-.navlink{
-    color: rgb(2, 72, 133);
+.nav-links-list {
+  display: flex;
+  gap: 20px;
+  font-size: 24px;
+  padding-right: 50px;
 }
 
+.navlink {
+  color: rgb(2, 72, 133);
+}
 
-nav > img {
-    width: 200px;
-    height: auto;
+.navlink:hover {
+  text-decoration: underline;
+}
+
+/* ========== CONTENU ========== */
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 40px 60px; /* espace pour la navbar fixe */
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: rgb(2, 72, 133);
+}
+
+.intro {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 50px;
+  max-width: 800px;
+}
+
+/* ========== SECTIONS ========== */
+.domain-section {
+  margin-bottom: 70px;
+}
+
+.domain-section h2 {
+  font-size: 32px;
+  color: rgb(2, 72, 133);
+  margin-bottom: 15px;
+}
+
+.section-desc {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+  max-width: 850px;
+}
+
+/* ========== CARTES (inspirées de tes cartes clients) ========== */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: flex-start;
+}
+
+.card {
+  border: 3px solid black;
+  border-radius: 0 0 40px 40px;
+  padding: 20px 18px 25px;
+  min-height: 220px;
+  max-width: 340px;
+  width: 100%;
+  box-shadow: 0px 5px 20px 1px rgb(192, 192, 192);
+  background-color: white;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card.full-width {
+  max-width: 100%;
+}
+
+.card h3 {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(2, 72, 133);
+  margin-bottom: 8px;
+}
+
+.card hr {
+  margin: 12px 30px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.card p {
+  margin: 0 10px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 900px) {
+  .content {
+    padding: 110px 20px 40px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  .nav-links-list {
+    font-size: 18px;
+    gap: 12px;
+    padding-right: 20px;
+  }
+
+  .logo {
+    width: 140px;
+  }
+
+  .card {
+    max-width: 100%;
+  }
 }
