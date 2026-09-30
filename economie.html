@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Économie - Dassault Systèmes</title>
     <link rel="stylesheet" href="css/economie.css">
     <link rel="icon" href="images/favicon.ico">
@@ -13,11 +14,12 @@
         <img src="images/logo.png" class="logo" alt="Logo Dassault Systèmes">
         <div class="nav-links">
             <ul class="nav-links-list">
-                <li><a class="navlink" href="index.html">Accueil</a></li>
-                <li><a class="navlink" href="histoire.html">Histoire</a></li>
-                <li><a class="navlink" href="domaines.html">Domaines</a></li>
-                <li><a class="navlink" href="Produits.html">Produits</a></li>
-                <li><a class="navlink" href="economie.html">Economie</a></li>
+                <li><a class="navlink" href="index.html" data-en="Home">Accueil</a></li>
+                <li><a class="navlink" href="histoire.html" data-en="History">Histoire</a></li>
+                <li><a class="navlink" href="domaines.html" data-en="Fields">Domaines</a></li>
+                <li><a class="navlink" href="Produits.html" data-en="Products">Produits</a></li>
+                <li><a class="navlink" href="economie.html" data-en="Economy">Economie</a></li>
+                <li><button id="bouton-langue" class="bouton-langue" type="button" onclick="changerLangue()">EN</button></li>
             </ul>
         </div>
     </nav>
@@ -25,17 +27,18 @@
 
     <main class="economie">
 
-        <h1>Économie de Dassault Systèmes</h1>
+        <h1 data-en="Economy and financial results of Dassault Systèmes">Économie et résultats financiers de Dassault Systèmes</h1>
 
-        <p class="intro">
+        <p class="intro" data-en="Dassault Systèmes is a French company specialised in software and 3D technologies. This page explains simply how the company earns money, how its results have changed since 2021 and where its customers are.">
             Dassault Systèmes est une entreprise française spécialisée
             dans les logiciels et les technologies 3D.
-            Voici quelques données permettant de présenter sa situation économique.
+            Cette page explique simplement comment l'entreprise gagne de l'argent,
+            comment ses résultats ont évolué depuis 2021 et où se trouvent ses clients.
         </p>
 
-        <h2>Présentation de l'entreprise</h2>
+        <h2 data-en="Presentation of the company">Présentation de l'entreprise</h2>
 
-        <p class="texte">
+        <p class="texte" data-en="Dassault Systèmes was created in 1981 and its head office is in Vélizy-Villacoublay, near Paris. The company is listed on the stock exchange and is part of the CAC 40. Its main shareholder is the Groupe Industriel Marcel Dassault. It sells its software to companies all over the world, mostly in Europe, America and Asia.">
             Dassault Systèmes a été créée en 1981 et son siège se trouve à Vélizy-Villacoublay,
             près de Paris. L'entreprise est cotée en bourse et fait partie du CAC 40.
             Son principal actionnaire est le Groupe Industriel Marcel Dassault.
@@ -43,165 +46,265 @@
             en Europe, en Amérique et en Asie.
         </p>
 
-        <h2>Chiffres clés</h2>
+        <h2 data-en="Key figures">Chiffres clés</h2>
 
         <table>
             <tr>
-                <th>Indicateur</th>
-                <th>Valeur</th>
+                <th data-en="Indicator">Indicateur</th>
+                <th data-en="Value">Valeur</th>
             </tr>
 
             <tr>
-                <td>Chiffre d'affaires en 2025</td>
+                <td data-en="Revenue in 2025">Chiffre d'affaires en 2025</td>
                 <td>6,24 Md €</td>
             </tr>
 
             <tr>
-                <td>Collaborateurs</td>
+                <td data-en="Net income in 2025">Résultat net en 2025</td>
+                <td>1,2 Md €</td>
+            </tr>
+
+            <tr>
+                <td data-en="Operating margin (IFRS)">Marge opérationnelle (normes IFRS)</td>
+                <td>21,7 %</td>
+            </tr>
+
+            <tr>
+                <td data-en="Recurring revenue (share of software revenue)">Revenus récurrents (part du chiffre d'affaires logiciels)</td>
+                <td>82 %</td>
+            </tr>
+
+            <tr>
+                <td data-en="Employees">Collaborateurs</td>
                 <td>25 000</td>
             </tr>
 
             <tr>
-                <td>Clients</td>
+                <td data-en="Customers">Clients</td>
                 <td>390 000+</td>
             </tr>
         </table>
 
-        <h2>Évolution du chiffre d'affaires</h2>
+        <h2 data-en="Change in revenue and net income">Évolution du chiffre d'affaires et du résultat net</h2>
 
         <table>
             <tr>
-                <th>Année</th>
-                <th>Chiffre d'affaires</th>
+                <th data-en="Year">Année</th>
+                <th data-en="Revenue">Chiffre d'affaires</th>
+                <th data-en="Net income">Résultat net</th>
             </tr>
 
             <tr>
                 <td>2021</td>
                 <td>4,86 Md €</td>
+                <td>0,77 Md €</td>
             </tr>
 
             <tr>
                 <td>2022</td>
                 <td>5,67 Md €</td>
+                <td>0,93 Md €</td>
             </tr>
 
             <tr>
                 <td>2023</td>
                 <td>5,95 Md €</td>
+                <td>1,05 Md €</td>
             </tr>
 
             <tr>
                 <td>2024</td>
                 <td>6,21 Md €</td>
+                <td>1,20 Md €</td>
             </tr>
 
             <tr>
                 <td>2025</td>
                 <td>6,24 Md €</td>
+                <td>1,19 Md €</td>
             </tr>
         </table>
 
-        <img class="graphique" src="images/economie/graphique-ca.png" alt="Graphique du chiffre d'affaires de Dassault Systèmes de 2021 à 2025, en millions d'euros">
+        <img class="graphique" src="images/economie/graphique-ca.png" alt="Graphique du chiffre d'affaires de Dassault Systèmes de 2021 à 2025, en millions d'euros" data-alt-en="Chart of Dassault Systèmes revenue from 2021 to 2025, in millions of euros">
 
-        <p class="texte">
+        <p class="texte" data-en="The chart shows that revenue has grown every year since 2021. It rises from about 4.9 billion euros in 2021 to more than 6.2 billion in 2025. The biggest increase is between 2021 and 2022. Then growth slows down and revenue is almost flat between 2024 and 2025. Net income follows the same path: it rises until 2024 and then stops growing.">
             Le graphique montre que le chiffre d'affaires augmente chaque année depuis 2021.
             Il passe d'environ 4,9 milliards d'euros en 2021 à plus de 6,2 milliards en 2025.
-            La plus forte hausse a lieu entre 2021 et 2022, puis la croissance ralentit,
-            surtout entre 2024 et 2025 où le chiffre d'affaires est presque stable.
+            La plus forte hausse a lieu entre 2021 et 2022, puis la croissance ralentit
+            et le chiffre d'affaires est presque stable entre 2024 et 2025.
+            Le résultat net suit la même évolution : il monte jusqu'en 2024, puis arrête de progresser.
         </p>
 
-        <h2>Activités</h2>
+        <h2 data-en="Activities">Activités</h2>
 
         <table>
             <tr>
-                <th>Activité</th>
-                <th>Part</th>
+                <th data-en="Activity">Activité</th>
+                <th data-en="Share">Part</th>
             </tr>
 
             <tr>
-                <td>Innovation industrielle</td>
+                <td data-en="Industrial innovation">Innovation industrielle</td>
                 <td>56 %</td>
             </tr>
 
             <tr>
-                <td>Sciences de la vie</td>
+                <td data-en="Life sciences">Sciences de la vie</td>
                 <td>19 %</td>
             </tr>
 
             <tr>
-                <td>Innovation grand public</td>
+                <td data-en="Mainstream innovation">Innovation grand public</td>
                 <td>25 %</td>
             </tr>
         </table>
 
-        <p class="texte">
+        <p class="texte" data-en="Industrial innovation makes up more than half of the business. It covers the software used by industries such as aeronautics, cars or shipbuilding. Life sciences mainly concern health and medical research. Mainstream innovation is aimed at smaller companies and the general public.">
             L'innovation industrielle représente plus de la moitié de l'activité.
             Elle regroupe les logiciels utilisés par les industries comme l'aéronautique,
             l'automobile ou la construction navale. Les sciences de la vie concernent
-            surtout la santé et la recherche médicale.
+            surtout la santé et la recherche médicale. L'innovation grand public
+            s'adresse aux petites entreprises et au grand public.
         </p>
 
-        <h2>Répartition par région</h2>
+        <h2 data-en="Where are the customers?">Où se trouvent les clients ?</h2>
 
-        <img class="graphique" src="images/economie/graphique-regions.png" alt="Graphique de la répartition du chiffre d'affaires logiciels de Dassault Systèmes par région en 2025">
+        <img class="graphique" src="images/economie/graphique-regions.png" alt="Graphique de la répartition du chiffre d'affaires logiciels de Dassault Systèmes par région en 2025" data-alt-en="Chart of Dassault Systèmes software revenue by region in 2025">
 
-        <p class="texte">
-            Le chiffre d'affaires est réparti presque à égalité entre les Amériques (39 %)
+        <p class="texte" data-en="Software revenue is split almost equally between the Americas (39 %) and Europe (38 %). Asia represents 22 % of software sales. The company therefore does not depend on a single region.">
+            Le chiffre d'affaires logiciels est réparti presque à égalité entre les Amériques (39 %)
             et l'Europe (38 %). L'Asie représente 22 % des ventes de logiciels.
+            L'entreprise ne dépend donc pas d'une seule région.
         </p>
 
-        <h2>Comment l'entreprise gagne de l'argent</h2>
+        <h2 data-en="How the company earns money">Comment l'entreprise gagne de l'argent</h2>
 
-        <p class="texte">
+        <p class="legende" data-en="Software revenue in 2025 by type (5.64 billion euros)">Chiffre d'affaires logiciels 2025 par type (5,64 Md €)</p>
+
+        <div class="barres">
+            <div class="ligne">
+                <span data-en="Subscriptions and support">Abonnements et support</span>
+                <div class="barre" style="width: 82%;">4,62 Md € (82 %)</div>
+            </div>
+            <div class="ligne">
+                <span data-en="Licences and other software">Licences et autres logiciels</span>
+                <div class="barre" style="width: 18%;">1,02 Md € (18 %)</div>
+            </div>
+        </div>
+
+        <p class="texte" data-en="Dassault Systèmes mainly earns money by selling software (subscriptions and licences) and the services that go with it, such as maintenance and training. Most of the revenue comes back every year through subscriptions, which makes the company's income fairly stable. However, licence sales fell by 6 % in 2025, because customers prefer to pay by subscription.">
             Dassault Systèmes gagne surtout de l'argent en vendant des logiciels
-            (licences et abonnements) et les services qui vont avec, comme la maintenance
-            et la formation. Une grande partie de ses revenus revient chaque année grâce
-            aux abonnements, ce qui rend son chiffre d'affaires assez stable.
+            (abonnements et licences) et les services qui vont avec, comme la maintenance
+            et la formation. La plus grande partie des revenus revient chaque année grâce
+            aux abonnements, ce qui rend le chiffre d'affaires assez stable.
+            En revanche, les ventes de licences ont baissé de 6 % en 2025, car les clients
+            préfèrent payer par abonnement.
         </p>
 
-        <h2>Concurrents</h2>
+        <h2 data-en="Competitors">Concurrents</h2>
 
         <table>
             <tr>
-                <th>Entreprise</th>
-                <th>Pays</th>
+                <th data-en="Company">Entreprise</th>
+                <th data-en="Country">Pays</th>
             </tr>
 
             <tr>
                 <td>Siemens (Digital Industries Software)</td>
-                <td>Allemagne</td>
+                <td data-en="Germany">Allemagne</td>
             </tr>
 
             <tr>
                 <td>Autodesk</td>
-                <td>États-Unis</td>
+                <td data-en="United States">États-Unis</td>
             </tr>
 
             <tr>
                 <td>PTC</td>
-                <td>États-Unis</td>
+                <td data-en="United States">États-Unis</td>
             </tr>
         </table>
 
-        <h2>Situation économique</h2>
+        <h2 data-en="Economic situation">Situation économique</h2>
 
-        <p class="texte">
+        <p class="texte" data-en="Dassault Systèmes makes several billion euros in revenue every year and is profitable. Its growth has slowed down in the last two years and licence sales are falling, but it remains one of the world leaders in 3D design software.">
             Dassault Systèmes réalise plusieurs milliards d'euros de chiffre
-            d'affaires chaque année. L'entreprise développe principalement
-            des logiciels et des services numériques pour différents secteurs.
-            Sa croissance a ralenti ces dernières années, mais elle reste un des
-            leaders mondiaux des logiciels de conception 3D.
+            d'affaires chaque année et reste rentable. Sa croissance a ralenti
+            ces deux dernières années et les ventes de licences reculent, mais
+            l'entreprise reste un des leaders mondiaux des logiciels de conception 3D.
         </p>
 
-        <p class="source">
+        <h2 data-en="Economic vocabulary">Vocabulaire économique</h2>
+
+        <dl class="lexique">
+            <dt data-en="Revenue">Chiffre d'affaires</dt>
+            <dd data-en="Total amount of sales made by the company over one year, before paying its costs.">Total des ventes réalisées par l'entreprise sur une année, avant de payer ses charges.</dd>
+
+            <dt data-en="Net income">Résultat net</dt>
+            <dd data-en="What remains for the company once all costs, taxes and interest are paid. It is the real profit.">Ce qui reste à l'entreprise une fois toutes les charges, les impôts et les intérêts payés. C'est le vrai bénéfice.</dd>
+
+            <dt data-en="Operating margin">Marge opérationnelle</dt>
+            <dd data-en="Share of revenue left as profit from the company's main activity.">Part du chiffre d'affaires qui reste en bénéfice grâce à l'activité principale de l'entreprise.</dd>
+
+            <dt data-en="Recurring revenue">Revenus récurrents</dt>
+            <dd data-en="Income that comes back regularly, for example subscriptions paid every year.">Revenus qui reviennent régulièrement, par exemple les abonnements payés chaque année.</dd>
+
+            <dt data-en="Licence">Licence</dt>
+            <dd data-en="Right to use a software, usually bought once.">Droit d'utiliser un logiciel, généralement acheté en une seule fois.</dd>
+
+            <dt data-en="Subscription">Abonnement</dt>
+            <dd data-en="Regular payment (monthly or yearly) to keep using a software.">Paiement régulier (mensuel ou annuel) pour continuer à utiliser un logiciel.</dd>
+
+            <dt>CAC 40</dt>
+            <dd data-en="Index of the 40 biggest companies listed on the Paris stock exchange.">Indice des 40 plus grandes entreprises cotées à la bourse de Paris.</dd>
+        </dl>
+
+        <p class="source" data-en="Sources: Dassault Systèmes results releases (rounded figures), charts made by the group.">
             Sources : communiqués de résultats de Dassault Systèmes (chiffres arrondis), graphiques réalisés par le groupe.
         </p>
 
     </main>
 
     <footer>
-        Page Économie - Auteur : Enes AVSAR
+        <span data-en="Economy page - Author: Enes AVSAR">Page Économie - Auteur : Enes AVSAR</span>
     </footer>
+
+    <script>
+        var langue = "fr";
+
+        function changerLangue() {
+            var textes = document.querySelectorAll("[data-en]");
+            var images = document.querySelectorAll("[data-alt-en]");
+            var i;
+
+            for (i = 0; i < textes.length; i++) {
+                if (textes[i].getAttribute("data-fr") === null) {
+                    textes[i].setAttribute("data-fr", textes[i].innerHTML);
+                }
+            }
+            for (i = 0; i < images.length; i++) {
+                if (images[i].getAttribute("data-alt-fr") === null) {
+                    images[i].setAttribute("data-alt-fr", images[i].alt);
+                }
+            }
+
+            if (langue === "fr") {
+                langue = "en";
+            } else {
+                langue = "fr";
+            }
+
+            for (i = 0; i < textes.length; i++) {
+                textes[i].innerHTML = textes[i].getAttribute("data-" + langue);
+            }
+            for (i = 0; i < images.length; i++) {
+                images[i].alt = images[i].getAttribute("data-alt-" + langue);
+            }
+
+            document.documentElement.lang = langue;
+            document.getElementById("bouton-langue").textContent = (langue === "fr") ? "EN" : "FR";
+        }
+    </script>
 
 </body>
 </html>
