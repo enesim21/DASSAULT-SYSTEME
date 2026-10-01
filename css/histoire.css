@@ -9,7 +9,7 @@
 }
 
 
-
+/* ---------- NAVBAR ---------- */
 
 .navbar {
     width: 100%;
@@ -63,6 +63,7 @@ body {
 }
 
 
+/* ---------- TITRES ---------- */
 
 h2 {
     padding: 12px 20px;
@@ -108,7 +109,7 @@ p {
 }
 
 
-
+/* ---------- FRISE ---------- */
 
 .frise {
     max-width: 1000px;
@@ -129,7 +130,7 @@ p {
 }
 
 
-
+/* Ligne entre les ronds */
 .etape:not(:last-child)::before {
     content: "";
 
@@ -144,7 +145,7 @@ p {
 }
 
 
-
+/* Rond avec la date */
 .rond {
     width: 110px;
     height: 110px;
@@ -169,14 +170,14 @@ p {
 }
 
 
-
+/* Rond quand le contenu est ouvert */
 .etape:has(details[open]) .rond {
     color: white;
     background-color: #005386;
 }
 
 
-
+/* ---------- BLOC DÉPLIABLE ---------- */
 
 .deplier {
     overflow: hidden;
@@ -218,7 +219,7 @@ p {
 }
 
 
-
+/* Chevron */
 .deplier summary::after {
     content: "";
 
@@ -241,7 +242,7 @@ p {
 }
 
 
-
+/* ---------- CONTENU ---------- */
 
 .contenu {
     display: flex;
@@ -286,7 +287,7 @@ p {
 }
 
 
-
+/* ---------- NOTE ---------- */
 
 .note {
     max-width: 1000px;
@@ -296,7 +297,7 @@ p {
 }
 
 
-
+/* ---------- FOOTER ---------- */
 
 footer {
     width: 100%;
@@ -308,6 +309,7 @@ footer {
 }
 
 
+/* ---------- PETIT ÉCRAN ---------- */
 
 @media (max-width: 800px) {
 
@@ -352,5 +354,3 @@ footer {
         width: 100%;
     }
 }
-
-
