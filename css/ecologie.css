@@ -1,5 +1,3 @@
-
- 
 * {
     margin: 0;
     padding: 0;
@@ -13,22 +11,23 @@
     width: 100%;
     position: fixed;
     display: flex;
-    align-items: center ;
+    align-items: center;
     justify-content: space-between;
+    box-shadow: 0 0.5px 15px rgba(0, 0, 0, 0.5);
 }
 
-.nav-links-list{
+.nav-links-list {
     display: flex;
     gap: 20px;
     font-size: 24px;
     padding-right: 50px;
 }
 
-.navlink{
+.navlink {
     color: rgb(2, 72, 133);
 }
 
-nav>img{
+nav>img {
     width: 200px;
     margin: 10px;
 }
