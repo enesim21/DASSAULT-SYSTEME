@@ -133,7 +133,7 @@ nav>img{
 }
 
 
-
+/* ---------- Frise chronologique verticale ---------- */
 
 .frise {
     max-width: 1000px;
@@ -155,7 +155,7 @@ nav>img{
 }
 
 
-
+/* trait vertical qui relie les ronds */
 .etape:not(:last-child)::before {
     content: "";
 
@@ -170,7 +170,7 @@ nav>img{
 }
 
 
-
+/* rond contenant la date clé */
 .rond {
     position: relative;
     z-index: 1;
@@ -201,6 +201,7 @@ nav>img{
 }
 
 
+/* titre dépliant */
 .deplier {
     border: 3px solid #005386;
     border-radius: 8px;
@@ -244,7 +245,7 @@ nav>img{
 }
 
 
-
+/* chevron : V quand plié, ^ quand déplié */
 .deplier summary::after {
     content: "";
 
@@ -269,7 +270,7 @@ nav>img{
 }
 
 
-
+/* paragraphe en bas du titre + image à droite */
 .contenu {
     display: flex;
     align-items: flex-start;
@@ -334,7 +335,7 @@ footer {
 
 
 
-
+/* ---------- Téléphone / petit écran ---------- */
 
 @media (max-width: 800px) {
 
