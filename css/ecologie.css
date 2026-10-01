@@ -155,6 +155,7 @@ tr:hover td {
 ul.clean {
   list-style: none;
   margin-top: 10px;
+  padding-left: 0;
 }
 
 ul.clean li {
@@ -165,11 +166,13 @@ ul.clean li {
 
 ul.clean li::before {
   content: "✓";
-  position: relative;
+  position: absolute;
   left: 0;
+  top: 8px;
   color: #1a7a4c;
   font-weight: bold;
 }
+
 
 .timeline {
   display: flex;
