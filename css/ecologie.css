@@ -165,7 +165,7 @@ ul.clean li {
 
 ul.clean li::before {
   content: "✓";
-  position: absolute;
+  position: relative;
   left: 0;
   color: #1a7a4c;
   font-weight: bold;
