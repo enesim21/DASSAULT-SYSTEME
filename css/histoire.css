@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-
     box-sizing: border-box;
 
     font-family: Arial, Helvetica, sans-serif;
@@ -11,17 +10,13 @@
 
 
 
-
 .navbar {
-    background-color: white;
-
     width: 100%;
     height: 80px;
 
     position: fixed;
     top: 0;
     left: 0;
-
     z-index: 1000;
 
     display: flex;
@@ -30,24 +25,21 @@
 
     padding: 0 30px;
 
+    background-color: white;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
-
-
 
 
 nav > img {
     width: 200px;
     height: auto;
+    margin: 10px;
 }
-
-
 
 
 .nav-links-list {
     display: flex;
     align-items: center;
-
     gap: 20px;
 
     font-size: 24px;
@@ -56,7 +48,6 @@ nav > img {
 
 .navlink {
     color: rgb(2, 72, 133);
-
     transition: 0.2s;
 }
 
@@ -64,7 +55,6 @@ nav > img {
 .navlink:hover {
     color: #0085c8;
 }
-
 
 
 body {
@@ -75,12 +65,12 @@ body {
 
 
 h2 {
+    padding: 12px 20px;
+
     color: white;
     background-color: #005386;
 
     font-weight: bold;
-
-    padding: 12px 20px;
 
     border: 2px solid #005386;
     border-radius: 5px;
@@ -88,31 +78,22 @@ h2 {
 
 
 h3 {
+    padding: 8px 15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
     color: #005386;
     background-color: #eaf4f8;
 
     font-weight: bold;
 
-    padding: 8px 15px;
-
-    margin-top: 30px;
-    margin-bottom: 15px;
-
     border-radius: 3px;
 }
 
 
-
-
 div {
-    margin-left: 50px;
-    margin-right: 50px;
-
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 50px;
 }
-
-
 
 
 p {
@@ -121,19 +102,13 @@ p {
 }
 
 
-
 .titre {
     margin-top: 30px;
     margin-bottom: 40px;
 }
 
-nav>img{
-    width: 200px;
-    margin: 10px;
-}
 
 
-/* ---------- Frise chronologique verticale ---------- */
 
 .frise {
     max-width: 1000px;
@@ -148,14 +123,13 @@ nav>img{
 
     display: grid;
     grid-template-columns: 110px 1fr;
-    column-gap: 30px;
-    align-items: start;
+    gap: 30px;
 
     padding-bottom: 40px;
 }
 
 
-/* trait vertical qui relie les ronds */
+
 .etape:not(:last-child)::before {
     content: "";
 
@@ -170,17 +144,16 @@ nav>img{
 }
 
 
-/* rond contenant la date clé */
 .rond {
-    position: relative;
-    z-index: 1;
-
     width: 110px;
     height: 110px;
 
     display: flex;
     align-items: center;
     justify-content: center;
+
+    position: relative;
+    z-index: 1;
 
     color: #005386;
     background-color: white;
@@ -195,30 +168,29 @@ nav>img{
 }
 
 
+
 .etape:has(details[open]) .rond {
     color: white;
     background-color: #005386;
 }
 
 
-/* titre dépliant */
 .deplier {
-    border: 3px solid #005386;
-    border-radius: 8px;
+    overflow: hidden;
 
     background-color: white;
-
-    overflow: hidden;
+    border: 3px solid #005386;
+    border-radius: 8px;
 }
 
 
 .deplier summary {
-    position: relative;
+    min-height: 110px;
 
     display: flex;
     align-items: center;
 
-    min-height: 110px;
+    position: relative;
 
     padding: 15px 70px 15px 25px;
 
@@ -230,8 +202,6 @@ nav>img{
 
     cursor: pointer;
     user-select: none;
-
-    transition: 0.2s;
 }
 
 
@@ -245,23 +215,21 @@ nav>img{
 }
 
 
-/* chevron : V quand plié, ^ quand déplié */
+
 .deplier summary::after {
     content: "";
+
+    width: 16px;
+    height: 16px;
 
     position: absolute;
     right: 30px;
     top: 50%;
 
-    width: 16px;
-    height: 16px;
-
     border-right: 4px solid #005386;
     border-bottom: 4px solid #005386;
 
     transform: translateY(-75%) rotate(45deg);
-
-    transition: transform 0.2s;
 }
 
 
@@ -270,7 +238,8 @@ nav>img{
 }
 
 
-/* paragraphe en bas du titre + image à droite */
+
+
 .contenu {
     display: flex;
     align-items: flex-start;
@@ -291,23 +260,24 @@ nav>img{
 
 
 .contenu-image {
-    flex: 0 0 300px;
+    width: 300px;
+    flex-shrink: 0;
 
     aspect-ratio: 4 / 3;
+
+    overflow: hidden;
 
     background-color: #eaf4f8;
     border: 2px dashed #005386;
     border-radius: 6px;
-
-    overflow: hidden;
 }
 
 
 .contenu-image img {
-    display: block;
-
     width: 100%;
     height: 100%;
+
+    display: block;
 
     object-fit: cover;
 }
@@ -318,24 +288,24 @@ nav>img{
 .note {
     max-width: 1000px;
 
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     padding: 0 20px;
 }
 
 
+
+
 footer {
+    width: 100%;
+
     margin-top: 30px;
     padding: 15px 0;
 
-    width: 100%;
     text-align: center;
 }
 
 
 
-
-/* ---------- Téléphone / petit écran ---------- */
 
 @media (max-width: 800px) {
 
@@ -344,10 +314,12 @@ footer {
         margin-right: 20px;
     }
 
+
     .etape {
         grid-template-columns: 70px 1fr;
-        column-gap: 15px;
+        gap: 15px;
     }
+
 
     .rond {
         width: 70px;
@@ -356,23 +328,25 @@ footer {
         font-size: 16px;
     }
 
+
     .etape:not(:last-child)::before {
         left: 33px;
         top: 70px;
     }
 
+
     .deplier summary {
         min-height: 70px;
-
         font-size: 17px;
     }
+
 
     .contenu {
         flex-direction: column;
     }
 
+
     .contenu-image {
-        flex: none;
         width: 100%;
     }
 }
