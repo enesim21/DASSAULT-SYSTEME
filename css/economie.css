@@ -16,18 +16,18 @@
     box-shadow: 0 0.5px 15px rgba(0, 0, 0, 0.5);
 }
 
-.nav-links-list{
+.nav-links-list {
     display: flex;
     gap: 20px;
     font-size: 24px;
     padding-right: 50px;
 }
 
-.navlink{
+.navlink {
     color: rgb(2, 72, 133);
 }
 
-nav>img{
+nav>img {
     width: 200px;
     margin: 10px;
 }
@@ -35,6 +35,7 @@ nav>img{
 .economie {
     padding-top: 120px;
     width: 80%;
+    max-width: 1100px;
     margin: auto;
 }
 
@@ -43,20 +44,37 @@ nav>img{
     margin-bottom: 20px;
 }
 
-.economie h2 {
-    margin-top: 30px;
-    margin-bottom: 15px;
+.intro {
+    font-size: 20px;
+    margin-bottom: 40px;
 }
 
-.intro {
+.bloc {
+    padding: 25px 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 0.5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.bloc h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: rgb(2, 72, 133);
+}
+
+.bloc h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.texte {
     font-size: 18px;
-    margin-bottom: 30px;
+    line-height: 1.5;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 th, td {
@@ -65,29 +83,93 @@ th, td {
     text-align: center;
 }
 
+th {
+    background-color: rgb(2, 72, 133);
+    color: white;
+}
+
 td:nth-child(2) {
     color: rgb(2, 72, 133);
     font-weight: bold;
 }
 
-.graphique {
-    display: block;
-    max-width: 100%;
-    margin: 20px auto;
+.chiffres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.chiffre {
+    flex: 1;
+    min-width: 180px;
+    padding: 20px;
+    text-align: center;
     box-shadow: 0 0.5px 15px rgba(0, 0, 0, 0.5);
 }
 
-.texte {
+.valeur {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(2, 72, 133);
+}
+
+.legende {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.graphique-texte {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+.graphique-texte .graphique {
+    width: 50%;
+    min-width: 300px;
+    box-shadow: 0 0.5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.graphique-texte .texte {
+    flex: 1;
+    min-width: 250px;
+}
+
+.deux-colonnes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
+.deux-colonnes div {
+    flex: 1;
+    min-width: 250px;
+}
+
+.lexique dt {
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.lexique dd {
     font-size: 18px;
-    margin-bottom: 40px;
+    line-height: 1.5;
 }
 
 .source {
     font-style: italic;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+.source a {
+    color: rgb(2, 72, 133);
+    text-decoration: underline;
 }
 
 footer {
-    padding: 15px;
     text-align: center;
+    background-color: antiquewhite;
+    padding: 20px;
 }
