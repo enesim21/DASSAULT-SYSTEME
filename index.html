@@ -35,8 +35,116 @@
         </div>
     </div>
 
+    <section class="section-news">
+        <div>
+            <h1>Actualités</h1>
+            <p class="infos-section-news">Retrouvez les dernières actualités sur Dassault Systèmes ci-contre. Ce fil
+                d'information est mis à jour
+                régulièrement donc revenez souvent jeter un oeil sur notre site !</p>
+            <h3 class="news-h3">Souscrire à la news letter :</h3>
+            <form>
+                <input type="text">
+                <button>Souscrire</button>
+            </form>
+        </div>
+        <div class="caroussel-news">
+            <button class="button-news-gauche">◄</button>
+            <div class="news-div">
+                <ul>
+                    <li class="news-active">
+                        <div class="news-block-haut">
+                            <img src="images/accueil/news1.png" alt="">
+                            <div class="news-text">
+                                <h2>Systra x Dassault Systèmes</h2>
+                                <p>Dassault Systèmes et SYSTRA s'associent pour concevoir des jumeaux virtuels de
+                                    nouvelle
+                                    génération appliqués aux infrastructures de transport. Ce partenariat vise à
+                                    optimiser
+                                    la prise de décision, la sécurité et la performance des projets ferroviaires en
+                                    combinant l'IA scientifique et la modélisation 3D. Grâce à cette approche intégrée,
+                                    les
+                                    ingénieurs peuvent simuler et tester des solutions avant leur mise en œuvre dans le
+                                    monde réel.</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="news-date">Paris, France - 24 septembre 2026</p>
+                    </li>
+                    <li>
+                        <div class="news-block-haut">
+                            <img src="images/accueil/centric-ai.png" alt="">
+                            <div class="news-text">
+                                <h2>Lancement de Centric AI</h2>
+                                <p>Centric Software présente sa nouvelle plateforme d'IA conçue pour automatiser et
+                                    optimiser chaque étape du cycle de vie des produits. En connectant les données et
+                                    les processus de travail, cette solution réduit considérablement les tâches
+                                    manuelles et accélère la prise de décision commerciale. Elle permet ainsi aux
+                                    entreprises d'améliorer leurs marges, leur réactivité et leur croissance globale.
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="news-date">Campbell, Etats-Unis - 10 septembre 2026</p>
+                    </li>
+                    <li>
+                        <div class="news-block-haut">
+                            <img src="images/accueil/sbt.png" alt="">
+                            <div class="news-text">
+                                <h2>Cap Net-Zero 2050</h2>
+                                <p>Dassault Systèmes franchit une nouvelle étape environnementale avec des objectifs de
+                                    réduction d'émissions de gaz à effet de serre validés par l'initiative SBTi pour
+                                    2050. L'entreprise entend décarboner l'ensemble de sa chaîne de valeur et
+                                    accompagner la transition durable de ses clients grâce aux jumeaux virtuels. Cet
+                                    engagement fait suite au succès anticipé de ses premiers jalons climatiques
+                                    initialement prévus pour 2027.
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="news-date">
+                            <div>
+                            <img src="images/accueil/localisation.png" alt="">
+                            <p>Velizy-Villacoublay, France</p>
+                            </div>
+                            <div>
+                            <img src="images/accueil/time.png" alt="">
+                            <p>July 23, 2026</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li></li>
+                </ul>
+            </div>
+            <button class="button-news-droite">►</button>
+        </div>
+    </section>
+
+    <script>
+        const slides = document.querySelectorAll('.news-div ul li');
+        const btnGauche = document.querySelector('.button-news-gauche');
+        const btnDroite = document.querySelector('.button-news-droite');
+        let indexCourant = 0;
+
+        function afficherSlide(index) {
+            slides[indexCourant].classList.remove('news-active');
+            if (index >= slides.length) {indexCourant = 0;} 
+            else if (index < 0) {indexCourant = slides.length - 1;} 
+            else {indexCourant = index;}
+            slides[indexCourant].classList.add('news-active');
+        }
+        btnDroite.addEventListener('click', () => {
+            afficherSlide(indexCourant + 1);
+        });
+        btnGauche.addEventListener('click', () => {
+            afficherSlide(indexCourant - 1);
+        });
+    </script>
+
+
+    <hr>
+
     <section class="section-qui">
-        <h1>Qui somme nous</h1>
+        <h1>Qui sommes nous</h1>
         <div>
             <p>Dassault Systèmes est née en 1981, issue d'une filiale de Dassault Aviation. À ses débuts, l'entreprise a
                 été créée pour développer et commercialiser CATIA, un logiciel informatique conçu par les ingénieurs de
@@ -58,6 +166,8 @@
                 en service tout en augmentant nettement les cadences de production pour les clients.</p>
         </div>
     </section>
+
+    <hr class="sections-ligne">
 
     <section class="section-clients">
         <h1>Nos clients nous font confiance</h1>
@@ -101,6 +211,11 @@
                 </div>
             </li>
         </ul>
+    </section>
+
+
+    <section>
+        <h1></h1>
     </section>
 
     <footer>
