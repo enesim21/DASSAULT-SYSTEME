@@ -6,29 +6,14 @@
     list-style: none;
 }
 
-body {
-    padding-top: 70px; 
-}
-
-footer {
-    height: 30px;
-    background-color: #494949;
-    padding: 20px;
-    color: white;
-    text-align: center;
-}
-
 .navbar {
     background-color: white;
     width: 100%;
     position: fixed;
-    top: 0;
-    left: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 0.5px 15px rgba(0, 0, 0, 0.5);
-    z-index: 1000;
 }
 
 .nav-links-list {
@@ -42,11 +27,25 @@ footer {
     color: rgb(2, 72, 133);
 }
 
-.navlink:hover {
-    text-decoration: underline;
+nav>img {
+    width: 200px;
+    margin: 10px;
 }
 
-.logo {
+
+body {
+    padding-top: 70px; 
+}
+
+footer {
+    height: 30px;
+    background-color: #494949;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+logo {
     height: 50px;
     margin: 10px;
 }
