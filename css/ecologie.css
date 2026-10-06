@@ -237,7 +237,7 @@ footer {
   }
 
   .nav-links {
-    gap: 14px;
+    gap: 15px;
   }
 
   .nav-links a {
@@ -249,7 +249,7 @@ footer {
   }
 
   h1 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 
   .kpis {
@@ -263,7 +263,7 @@ footer {
 
   th,
   td {
-    padding: 8px 6px;
+    padding: 10px 5px;
     font-size: 0.85rem;
   }
 }
