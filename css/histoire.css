@@ -34,21 +34,6 @@ nav>img {
 
 
 
-.nav-links-list {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-
-    font-size: 24px;
-}
-
-
-.navlink {
-    color: rgb(2, 72, 133);
-    transition: 0.2s;
-}
-
-
 .navlink:hover {
     color: #0085c8;
 }
