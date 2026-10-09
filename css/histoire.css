@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -10,10 +11,14 @@
     background-color: white;
     width: 100%;
     position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 0.5px 15px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
 }
 
 .nav-links-list {
@@ -27,7 +32,7 @@
     color: rgb(2, 72, 133);
 }
 
-nav>img {
+nav > img {
     width: 200px;
     margin: 10px;
 }
