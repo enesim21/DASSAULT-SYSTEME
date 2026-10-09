@@ -139,6 +139,12 @@ h2 {
     padding-left: 5px;
 }
 
+.bloc a,
+.texte a {
+    color: rgb(2, 72, 133);
+    text-decoration: underline;
+}
+
 .source {
     width: 90%;
     max-width: 1200px;
