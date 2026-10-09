@@ -301,7 +301,19 @@ footer {
 
     text-align: center;
 }
+footer {
+    width: 100%;
+    margin-top: 80px;
+    padding: 30px 20px;
+    background-color: var(--bleu-fonce);
+    color: var(--blanc);
+    text-align: center;
+    font-size: 14px;
+}
 
+footer p {
+    margin: 0;
+}
 
 @media (max-width: 800px) {
 
