@@ -4,27 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Empreinte carbone – Dassault Systèmes</title>
-  <link rel="stylesheet" href="css/ecologie.css"> <!-- fais gaffe quand tu supprime t'avais supprimé une partie du link -->
-</head>
+  <link rel="stylesheet" href="css/ecologie.css"> 
 <body>
 
-  <nav class="navbar">
-    <img src="images/logo.png" alt="Logo Dassault Systèmes" class="logo">
-    <ul class="nav-links">
-      <li><a href="index.html">Accueil</a></li>
-      <li><a href="histoire.html">Histoire</a></li>
-      <li><a href="domaines.html">Domaines</a></li>
-      <li><a href="produits.html">Produits</a></li>
-      <li><a href="ecologie.html" class="active">Ecologie</a></li>
-    </ul>
-  </nav>
+<nav class="navbar">
+	    <img src="images/logo.png" class="logo">
+	    <div class="nav-links">
+	        <ul class="nav-links-list">
+                <li><a class="navlink" href="index.html">Accueil</a></li>
+                <li><a class="navlink" href="histoire.html">Histoire</a></li>
+                <li><a class="navlink" href="domaines.html">Domaines</a></li>
+                <li><a class="navlink" href="produits.html">Produits</a></li>
+                <li><a class="navlink" href="economie.html">Economie</a></li>
+                <li><a class="navlink" href="ecologie.html">Ecologie</a></li>
+            </ul>
+        </div>
+    </nav>
 
   <main class="content">
 
     <h1>Empreinte carbone de Dassault Systèmes</h1>
-    <p class="intro">
-      Données officielles (Scopes 1, 2 &amp; 3) – année de référence 2019.
-    </p>
 
   
  <section class="domain-section">
@@ -34,7 +33,7 @@
   <div class="kpis">
     <div class="kpi">
       <div class="value">315 200</div>
-      <div class="label">tCO^2eq totale<br>(market-based)</div>
+      <div class="label">tCO₂eq totale<br>(market-based)</div>
     </div>
     <div class="kpi">
       <div class="value">−78,3 %</div>
@@ -46,7 +45,7 @@
     </div>
     <div class="kpi">
       <div class="value">12,6</div>
-      <div class="label">tCO^2eq / collaborateur<br>(−38 % vs 2019)</div>
+      <div class="label">tCO₂eq / collaborateur<br>(−38 % vs 2019)</div>
     </div>
   </div>
 </section>
@@ -83,7 +82,7 @@
             <td>5 622</td>
             <td>319 189</td>
             <td>324 811</td>
-            <td class="neg">−8,8 %*</td>
+            <td class="neg">−8,8 %</td>
           </tr>
           <tr>
             <td><strong>2025</strong></td>
@@ -94,18 +93,15 @@
           </tr>
         </tbody>
       </table>
-      <p class="note">
-        * Hors ou avec « use of sold products » selon les années. Les totaux 2024-2025 incluent l’utilisation des solutions vendues (~118 000 tCO₂eq en 2025). Unités : tCO₂eq.
-      </p>
     </section>
 
     <section class="domain-section">
       <h2>Détail des émissions 2025</h2>
       <ul class="clean">
-        <li><strong>Scope 1</strong> : 3 110 tCO^2eq (véhicules de fonction, gaz, réfrigérants…)</li>
-        <li><strong>Scope 2</strong> (market-based) : 2 339 tCO^2eq</li>
-        <li><strong>Scope 3</strong> : 309 750 tCO^2eq (dont ~118 231 pour l’utilisation des solutions vendues)</li>
-        <li>Intensité carbone : <strong>50,5 tCO^2eq / M€ de CA</strong> (−41,6 % vs 2019)</li>
+        <li><strong>Scope 1</strong> : 3 110 tCO₂eq (émissions directes générées par les sources que l'entreprise possède ou contrôle physiquement:véhicules de fonction, gaz, réfrigérants…)</li>
+        <li><strong>Scope 2</strong> : 2 339 tCO₂eq ( consommation d'électricité ou d'énergie achetée)</li>
+        <li><strong>Scope 3</strong> : 309 750 tCO₂eq (émission ndirectes produites tout au long de la chaîne de valeur d'une entreprise)</li>
+        <li>Intensité carbone : <strong>50,5 tCO₂eq / M€ de CA</strong> (−41,6 % vs 2019)</li>
         <li>Part d’électricité renouvelable : > 90 %</li>
       </ul>
     </section>
@@ -116,7 +112,7 @@
         <div class="timeline-item">
           <div class="timeline-year">2027</div>
           <div class="timeline-content">
-            <strong>Objectifs SBTi court terme (base 2019) – déjà dépassés</strong><br>
+            <strong>Objectifs SBTi* court terme (base 2019) – déjà dépassés</strong><br>
             −35 % Scopes 1+2 → <span class="highlight">réalisé −78,3 %</span><br>
             −20 % déplacements professionnels + domicile-travail → <span class="highlight">réalisé −35,7 %</span><br>
             50 % des fournisseurs avec objectifs science-based → <span class="highlight">réalisé 50,4 %</span>
@@ -140,13 +136,15 @@
         <div class="timeline-item">
           <div class="timeline-year">2050</div>
           <div class="timeline-content">
-            <strong>Net-Zero</strong> sur toute la chaîne de valeur (validé SBTi)<br>
+            <strong>Net-Zero**</strong> sur toute la chaîne de valeur (validé SBTi)<br>
             −90 % absolus Scopes 1+2, Scope 3 et utilisation des produits vendus
           </div>
         </div>
       </div>
+		<p class="note">SBTi =Science Based Targets Initiative</p>
+		<p class="note">net-zero = état d'équilibre où la quantité totale de gaz à effet de serre émise dans l'atmosphère par les activités humaines est égale à la quantité retirée ou absorbée par des puits de carbone naturels</p>
     </section>
-	<span class="badge">Source : URD &amp; Impact Report 2024-2025</span>
+
   </main>
 
 </body>
