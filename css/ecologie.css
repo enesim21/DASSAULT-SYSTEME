@@ -1,228 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+
+:root {
+    --sombre: #293947;
+    --petrole: #0B5D75;
+    --turquoise: #429DAD;
+    --cyan: #BAE9EA;
+    --clair: #E9F6FD;
+    --blanc: #FFFFFF;
+    --fond: #D6E1E6;
+    --gris: #767676;
+    --texte: #1F1F1F;
+}
+
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
 }
 
+body {
+    padding-top: 82px;
+    background-color: var(--fond);
+    color: var(--texte);
+    line-height: 1.6;
+}
+
+/* ---------- Barre de navigation (style tile) ---------- */
+
 .navbar {
-    background-color: white;
+    background-color: var(--blanc);
     width: 100%;
     position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 0.5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
     z-index: 1000;
 }
 
 .nav-links-list {
     display: flex;
-    gap: 20px;
-    font-size: 24px;
-    padding-right: 50px;
+    align-items: center;
+    gap: 22px;
+    font-size: 19px;
+    padding-right: 40px;
 }
 
 .navlink {
-    color: rgb(2, 72, 133);
+    color: var(--gris);
 }
 
-nav>img {
+.navlink strong {
+    color: #015486;
+    font-weight: 700;
+}
+
+.navlink:hover {
+    color: #015486;
+}
+
+nav > img {
     width: 200px;
     margin: 10px;
 }
 
-.nav-links a {
-  text-decoration: none;
-  color: rgb(5, 80, 150);
-  font-size: 30px;
-  font-weight: 500;
-  transition: color 0.2s ease;
+img {
+    max-width: 100%;
 }
-.nav-links a:hover,
-.nav-links a.active {
-  color: #0056b3;
-  text-decoration: underline;
+
+/* ---------- Bannière et titre (même taille que la page Produits) ---------- */
+
+.banner-img {
+    display: block;
+    width: 100%;
+    height: clamp(250px, 32vw, 450px);
+    object-fit: cover;
+    object-position: center;
+    background-color: var(--sombre);
 }
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f5f7fa;
-  color: #333;
-  line-height: 1.6;
-}
-.content {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 100px 30px 60px;
-}
+
 h1 {
-  font-size: 2.2rem;
-  color: rgb(5, 80, 150);
-  margin-bottom: 40px;
+    width: min(90%, 950px);
+    margin: 45px auto 40px;
+    color: var(--petrole);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(25px, 3vw, 38px);
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
 }
-.intro {
-  font-size: 1.1rem;
-  color: #555;
-  margin-bottom: 20px;
-  max-width: 1000px;
+
+/* ---------- Cartes (style tile) ---------- */
+
+.content {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
 }
-.badge {
-  display: inline-block;
-  background-color: rgb(5, 80, 150);
-  color: white;
-  font-size: 13px;
-  padding: 5px 14px;
-  border-radius: 4px;
-  margin-bottom: 30px;
-}
+
 .domain-section {
-  margin-bottom: 50px;
-  background: white;
-  padding: 28px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    margin-bottom: 30px;
+    padding: 22px 26px;
+    background-color: var(--blanc);
+    font-size: 16px;
 }
+
 .domain-section h2 {
-  font-size: 1.6rem;
-  color: rgb(5, 80, 150);
-  margin-bottom: 30px;
-  padding-bottom: 20px;
-  border-bottom: 10px solid rgb(5, 80, 150);
-  display: inline-block;
+    margin-bottom: 14px;
+    color: var(--petrole);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.3;
 }
+
+.note {
+    margin-top: 12px;
+    color: #4D5863;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* ---------- Chiffres clés ---------- */
+
 .kpis {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
-  margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 18px;
 }
+
 .kpi {
-  background: white;
-  border-radius: 12px;
-  padding: 22px 16px;
-  text-align: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-  border-left: 4px solid rgb(5, 80, 150);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+    padding: 20px 16px;
+    background-color: var(--clair);
+    border-top: 4px solid var(--turquoise);
+    text-align: center;
 }
-.kpi:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-}
+
 .kpi .value {
-  font-size: 1.7rem;
-  font-weight: bold;
-  color: rgb(5, 80, 150);
+    color: var(--petrole);
+    font-size: 28px;
+    font-weight: 700;
 }
+
 .kpi .label {
-  font-size: 0.9rem;
-  color: #555;
-  margin-top: 6px;
+    margin-top: 6px;
+    color: var(--sombre);
+    font-size: 14px;
 }
+
+/* ---------- Tableau ---------- */
+
 table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 12px;
-  font-size: 0.95rem;
+    width: 100%;
+    margin-top: 12px;
+    border-collapse: collapse;
+    font-size: 15px;
 }
+
 th,
 td {
-  padding: 12px 14px;
-  text-align: left;
-  border-bottom: 1px solid #e0e0e0;
+    padding: 12px 14px;
+    text-align: left;
+    border-bottom: 1px solid var(--fond);
 }
+
 th {
-  background-color: rgb(5, 80, 150);
-  color: white;
-  font-weight: 600;
+    background-color: var(--petrole);
+    color: var(--blanc);
+    font-weight: 600;
 }
-tr:hover td {
-  background-color: #f0f4f8;
-}
-.highlight {
-  font-weight: bold;
-  color: #1a7a4c;
-}
+
+.highlight,
 .neg {
-  color: #1a7a4c;
-  font-weight: bold;
+    color: var(--turquoise);
+    font-weight: 700;
 }
-.note {
-  font-size: 0.85rem;
-  color: #666;
-  margin-top: 12px;
-}
+
+/* ---------- Liste ---------- */
+
 ul.clean {
-  list-style: none;
-  margin-top: 10px;
+    margin-top: 10px;
 }
+
 ul.clean li {
-  padding: 8px 0 8px 0; 
-  position: relative;
-  font-size: 0.98rem;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--fond);
 }
+
+ul.clean li:last-child {
+    border-bottom: none;
+}
+
+/* ---------- Frise des objectifs ---------- */
+
 .timeline {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  margin-top: 10px;
-}
-.timeline-item {
-  display: flex;
-  gap: 16px;
-  align-items: flex-start;
-}
-.timeline-year {
-  min-width: 70px;
-  font-weight: bold;
-  font-size: 1.15rem;
-  color: rgb(5, 80, 150);
-  padding-top: 4px;
-}
-.timeline-content {
-  flex: 1;
-  background: #f8fafc;
-  padding: 14px 18px;
-  border-left: 4px solid rgb(5, 80, 150);
-  border-radius: 0 8px 8px 0;
-  font-size: 0.95rem;
-}
-footer {
-  text-align: center;
-  background-color: antiquewhite;
-  padding: 22px;
-  margin-top: 40px;
-  font-size: 0.85rem;
-  color: #444;
-}
-@media (max-width: 700px) {
-  .navbar {
-    padding: 0 16px;
-    height: 60px;
-  }
-  .nav-links {
-    gap: 14px;
-  }
-  .nav-links a {
-    font-size: 14px;
-  }
-  .content {
-    padding-top: 85px;
-  }
-  h1 {
-    font-size: 1.7rem;
-  }
-  .kpis {
-    grid-template-columns: 1fr;
-  }
-  .timeline-item {
+    display: flex;
     flex-direction: column;
-    gap: 6px;
-  }
-  th,
-  td {
-    padding: 8px 6px;
-    font-size: 0.85rem;
-  }
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.timeline-year {
+    min-width: 70px;
+    padding-top: 12px;
+    color: var(--turquoise);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.timeline-content {
+    flex: 1;
+    padding: 14px 18px;
+    background-color: var(--clair);
+    border-left: 4px solid var(--turquoise);
+    font-size: 15px;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 950px) {
+    .nav-links-list {
+        flex-wrap: wrap;
+        gap: 10px 18px;
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 600px) {
+    nav > img {
+        width: 140px;
+        margin: 8px;
+    }
+
+    .nav-links-list {
+        gap: 8px 14px;
+        padding-right: 10px;
+    }
+
+    .navlink {
+        font-size: 13px;
+    }
+
+    .banner-img {
+        height: 250px;
+    }
+
+    h1 {
+        width: 90%;
+        margin: 30px auto;
+        font-size: 25px;
+    }
+
+    .domain-section {
+        padding: 20px 18px;
+    }
+
+    .domain-section h2 {
+        font-size: 22px;
+    }
+
+    .kpis {
+        grid-template-columns: 1fr;
+    }
+
+    .timeline-item {
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    th,
+    td {
+        padding: 8px 6px;
+        font-size: 13px;
+    }
 }
