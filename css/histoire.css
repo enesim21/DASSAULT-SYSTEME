@@ -62,20 +62,18 @@ body {
 }
 
 
-
-
 h2 {
     color: #293947;
     text-align: center;
+    font-size: 28px;
 }
 
 h3 {
     color: #0B5D75;
     text-align: center;
     padding: 20px;
+    font-size: 28px;
 }
-
-
 
 
 div {
