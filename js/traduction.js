@@ -207,7 +207,13 @@
 "<strong>Neutralité carbone</strong> (ambition historique – compensation des émissions résiduelles)": "<strong>Carbon neutrality</strong> (historical ambition – offsetting residual emissions)",
 "<strong>Net-Zero**</strong> sur toute la chaîne de valeur (validé SBTi)<br> −90 % absolus Scopes 1+2, Scope 3 et utilisation des produits vendus": "<strong>Net-Zero**</strong> across the entire value chain (SBTi-validated)<br> −90% absolute Scopes 1+2, Scope 3 and use of sold products",
 "SBTi =Science Based Targets Initiative": "SBTi = Science Based Targets Initiative",
-"net-zero = état d'équilibre où la quantité totale de gaz à effet de serre émise dans l'atmosphère par les activités humaines est égale à la quantité retirée ou absorbée par des puits de carbone naturels": "net-zero = a state of balance where the total amount of greenhouse gases emitted into the atmosphere by human activities equals the amount removed or absorbed by natural carbon sinks"
+"net-zero = état d'équilibre où la quantité totale de gaz à effet de serre émise dans l'atmosphère par les activités humaines est égale à la quantité retirée ou absorbée par des puits de carbone naturels": "net-zero = a state of balance where the total amount of greenhouse gases emitted into the atmosphere by human activities equals the amount removed or absorbed by natural carbon sinks",
+"<a class=\"navlink\" href=\"ecologie.html\"><strong>Écologie</strong></a>": "<a class=\"navlink\" href=\"ecologie.html\"><strong>Ecology</strong></a>",
+"<strong>Scope 1</strong> : 3 110 tCO₂eq (émissions directes générées par les sources que l'entreprise possède ou contrôle physiquement : véhicules de fonction, gaz, réfrigérants…)": "<strong>Scope 1</strong>: 3,110 tCO₂eq (direct emissions from sources the company owns or physically controls: company cars, gas, refrigerants…)",
+"<strong>Scope 2</strong> : 2 339 tCO₂eq (consommation d'électricité ou d'énergie achetée)": "<strong>Scope 2</strong>: 2,339 tCO₂eq (purchased electricity or energy consumption)",
+"<strong>Scope 3</strong> : 309 750 tCO₂eq (émissions indirectes produites tout au long de la chaîne de valeur d'une entreprise)": "<strong>Scope 3</strong>: 309,750 tCO₂eq (indirect emissions produced throughout a company's value chain)",
+"SBTi = Science Based Targets Initiative": "SBTi = Science Based Targets Initiative",
+"Éolienne dans un paysage de montagne au coucher du soleil": "Wind turbine in a mountain landscape at sunset"
 };
 
     var BLOCS = "ADDRESS ARTICLE ASIDE BLOCKQUOTE BODY CAPTION DD DETAILS DIV DL DT FIELDSET FIGCAPTION FIGURE FOOTER FORM H1 H2 H3 H4 H5 H6 HEADER LI MAIN NAV OL P PRE SECTION SUMMARY TABLE TBODY TD TFOOT TH THEAD TR UL BUTTON".split(" ");
