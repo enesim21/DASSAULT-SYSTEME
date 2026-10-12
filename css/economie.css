@@ -114,27 +114,6 @@ main {
     margin-top: 14px;
 }
 
-.carte ul {
-    margin: 16px 0;
-}
-
-.carte li {
-    position: relative;
-    margin-bottom: 10px;
-    padding-left: 22px;
-}
-
-.carte li::before {
-    content: "";
-    position: absolute;
-    left: 4px;
-    top: 0.6em;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color: var(--turquoise);
-}
-
 .intro {
     text-align: left;
 }
@@ -158,8 +137,6 @@ main {
     display: block;
     width: 100%;
     height: auto;
-    border: 1px solid var(--cyan);
-    border-radius: 6px;
 }
 
 figcaption {
@@ -180,7 +157,7 @@ figcaption {
     gap: 35px;
 }
 
-/* ---------- Liens et boutons ---------- */
+/* ---------- Liens ---------- */
 
 .carte a,
 .source a {
@@ -191,23 +168,6 @@ figcaption {
 .carte a:hover,
 .source a:hover {
     color: var(--petrole);
-}
-
-.carte a.bouton {
-    display: inline-block;
-    margin-top: 8px;
-    padding: 10px 22px;
-    border-radius: 6px;
-    background-color: var(--petrole);
-    color: var(--blanc);
-    font-weight: 700;
-    text-decoration: none;
-    transition: background-color 0.2s ease;
-}
-
-.carte a.bouton:hover {
-    background-color: var(--turquoise);
-    color: var(--blanc);
 }
 
 .source {
