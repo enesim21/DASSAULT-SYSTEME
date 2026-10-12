@@ -243,6 +243,7 @@ p {
 
 .contenu-texte p:last-child {
     margin-bottom: 0;
+    font-size: 18px;
 }
 
 
@@ -272,7 +273,7 @@ p {
 
 .note {
     max-width: 1000px;
-
+     font-size: 18px;
     margin: 0 auto;
     padding: 0 20px;
 }
