@@ -31,7 +31,9 @@ nav>img {
     width: 200px;
     margin: 10px;
 }
-
+.navlink.actif {
+    font-weight: bold;
+}
 
 
 .div-bienvenue {
