@@ -118,18 +118,29 @@ main {
     text-align: left;
 }
 
-.carte-graph {
+.carte-graph .contenu {
     display: flex;
-    align-items: center;
-    gap: 40px;
+    align-items: stretch;
+    gap: 25px;
 }
 
-.carte-graph.inverse {
+.carte-graph.inverse .contenu {
     flex-direction: row-reverse;
 }
 
+.figure,
+.texte {
+    background-color: var(--clair);
+    border: 1px solid var(--cyan);
+    border-radius: 6px;
+    padding: 20px;
+}
+
 .figure {
-    flex: 0 0 440px;
+    flex: 0 0 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
 }
 
@@ -201,15 +212,13 @@ footer p {
         gap: 12px 20px;
     }
 
-    .carte-graph,
-    .carte-graph.inverse {
+    .carte-graph .contenu,
+    .carte-graph.inverse .contenu {
         flex-direction: column;
     }
 
     .figure {
         flex: none;
-        width: 100%;
-        max-width: 480px;
     }
 
     .duo {
