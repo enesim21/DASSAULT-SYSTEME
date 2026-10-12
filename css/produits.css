@@ -84,7 +84,7 @@ h1 {
     width: 94%;
     max-width: 1450px;
     margin: 0 auto 70px;
-    align-items: stretch;
+    align-items: start;
 }
 
 .product-card {
