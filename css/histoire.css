@@ -1,8 +1,8 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     list-style: none;
@@ -12,35 +12,37 @@
 
 
 .navbar {
-    background-color: white;
     width: 100%;
     height: 80px;
+
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     padding: 0 30px;
+
+    background-color: white;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
-
-
 
 
 nav > img {
     width: 200px;
     height: auto;
+    margin: 10px;
 }
-
-
 
 
 .nav-links-list {
     display: flex;
     align-items: center;
     gap: 20px;
+
     font-size: 24px;
 }
 
@@ -54,25 +56,39 @@ nav > img {
 .navlink:hover {
     color: #0085c8;
 }
+
 .navlink.actif {
     font-weight: bold;
 }
-body {
-    padding-top: 100px;
+
+.banner-img {
+    display: block;
+    width: 100%;
+    height: clamp(250px, 32vw, 450px);
+    object-fit: cover;
+    object-position: center;
+    background-color: var(--bleu-fonce);
+    margin: 0;
 }
 
+body {
+    padding-top: 80px;
+}
+
+
+/* ---------- TITRES ---------- */
 
 h2 {
     color: #293947;
     text-align: center;
-    font-size: 28px;
+    font-size: 30px;
 }
 
 h3 {
     color: #0B5D75;
     text-align: center;
     padding: 20px;
-    font-size: 28px;
+    font-size: 30px;
 }
 
 
@@ -82,6 +98,7 @@ div {
 
 
 p {
+    font-size: 19px;
     line-height: 1.7;
     margin-bottom: 15px;
 }
@@ -93,6 +110,7 @@ p {
 }
 
 
+/* ---------- FRISE ---------- */
 
 .frise {
     max-width: 1000px;
@@ -113,7 +131,7 @@ p {
 }
 
 
-
+/* Ligne entre les ronds */
 .etape:not(:last-child)::before {
     content: "";
 
@@ -128,7 +146,7 @@ p {
 }
 
 
-
+/* Rond avec la date */
 .rond {
     width: 110px;
     height: 110px;
@@ -149,18 +167,18 @@ p {
     border: 4px solid #005386;
     border-radius: 50%;
 
-    transition: 0.2s;
+    
 }
 
 
-
+/* Rond quand le contenu est ouvert */
 .etape:has(details[open]) .rond {
     color: white;
     background-color: #005386;
 }
 
 
-
+/* ---------- BLOC DÉPLIABLE ---------- */
 
 .deplier {
     overflow: hidden;
@@ -184,7 +202,7 @@ p {
     color: #005386;
     background-color: #eaf4f8;
 
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
 
     cursor: pointer;
@@ -202,7 +220,7 @@ p {
 }
 
 
-
+/* Chevron */
 .deplier summary::after {
     content: "";
 
@@ -225,7 +243,7 @@ p {
 }
 
 
-
+/* ---------- CONTENU ---------- */
 
 .contenu {
     display: flex;
@@ -243,7 +261,6 @@ p {
 
 .contenu-texte p:last-child {
     margin-bottom: 0;
-    font-size: 18px;
 }
 
 
@@ -271,13 +288,17 @@ p {
 }
 
 
+/* ---------- NOTE ---------- */
+
 .note {
     max-width: 1000px;
-     font-size: 18px;
+
     margin: 0 auto;
     padding: 0 20px;
 }
 
+
+/* ---------- FOOTER ---------- */
 
 footer {
     width: 100%;
@@ -291,8 +312,11 @@ footer {
 
 footer p {
     margin: 0;
-    color:  #ffffff;
+    color: #ffffff;
 }
+
+
+/* ---------- PETIT ÉCRAN ---------- */
 
 @media (max-width: 800px) {
 
@@ -324,7 +348,7 @@ footer p {
 
     .deplier summary {
         min-height: 70px;
-        font-size: 17px;
+        font-size: 19px;
     }
 
 
