@@ -1,7 +1,3 @@
-/* Traduction français / anglais du site
-   Un bouton dans la barre de navigation permet de passer d'une langue à l'autre.
-   Le choix est gardé quand on change de page. */
-
 (function () {
     var DICO = {
 "<strong>Et la maison mère à cette époque ?</strong> En 1981, elle s'appelle encore Avions Marcel Dassault-Breguet Aviation (elle ne prendra le nom de Dassault Aviation que plus tard). Elle construit des avions de combat comme le Mirage 2000, dont le premier vol a eu lieu en 1978. CATIA est née dans ses bureaux d'études dès 1977, pour dessiner ces avions en 3D, avant que Dassault Systèmes soit créée pour la proposer à d'autres industriels. Marcel Dassault, le fondateur de l'entreprise, est alors encore en vie : il meurt en 1986, l'année de CATIA V3.": "<strong>And the parent company at that time?</strong> In 1981, it was still called Avions Marcel Dassault-Breguet Aviation (it only took the name Dassault Aviation later). It built combat aircraft such as the Mirage 2000, which first flew in 1978. CATIA was born in its design offices as early as 1977, to draw these aircraft in 3D, before Dassault Systèmes was created to offer it to other manufacturers. Marcel Dassault, the company's founder, was still alive at the time: he died in 1986, the year of CATIA V3.",
@@ -290,7 +286,6 @@
         return false;
     }
 
-    // Liste des morceaux de texte de la page
     function morceaux(racine) {
         var liste = [];
         function parcourir(el) {
@@ -336,7 +331,6 @@
         try {
             localStorage.setItem("langue", langue);
         } catch (e) {
-            // rien à faire si le navigateur bloque le stockage
         }
     }
 
@@ -357,7 +351,6 @@
 
         var textes = morceaux(document.body);
 
-        // Met en avant le lien de la page affichée dans le menu
         function marquerActif() {
             var page = location.pathname.split("/").pop() || "index.html";
             var liens = document.querySelectorAll(".nav-links-list .navlink");
