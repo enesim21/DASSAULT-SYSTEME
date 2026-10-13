@@ -36,7 +36,15 @@ nav>img {
     width: 200px;
     margin: 10px;
 }
-
+.banner-img {
+    display: block;
+    width: 100%;
+    height: clamp(250px, 32vw, 450px);
+    object-fit: cover;
+    object-position: center;
+    background-color: var(--bleu-fonce);
+    margin: 0;
+}
 
 body {
     padding-top: 70px; 
