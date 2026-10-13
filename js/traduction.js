@@ -4,6 +4,7 @@
 
 (function () {
     var DICO = {
+"<a class=\"navlink actif\" href=\"histoire.html\">Histoire</a>": "<a class=\"navlink actif\" href=\"histoire.html\">History</a>",
 "Accueil - Dassault Systèmes": "Home - Dassault Systèmes",
 "<a class=\"navlink\" href=\"index.html\">Accueil</a>": "<a class=\"navlink\" href=\"index.html\">Home</a>",
 "<a class=\"navlink\" href=\"histoire.html\">Histoire</a>": "<a class=\"navlink\" href=\"histoire.html\">History</a>",
@@ -307,6 +308,17 @@
         }
 
         var textes = morceaux(document.body);
+
+        // Met en avant le lien de la page affichée dans le menu
+        function marquerActif() {
+            var page = location.pathname.split("/").pop() || "index.html";
+            var liens = document.querySelectorAll(".nav-links-list .navlink");
+            for (var i = 0; i < liens.length; i++) {
+                if (liens[i].getAttribute("href") === page) {
+                    liens[i].classList.add("actif");
+                }
+            }
+        }
         var titreFr = document.title;
 
         function appliquer(langue) {
@@ -329,6 +341,7 @@
             bouton.textContent = langue === "en" ? "Français" : "English";
             bouton.setAttribute("aria-label", langue === "en" ? "Afficher le site en français" : "Show the website in English");
             bouton.setAttribute("lang", langue === "en" ? "fr" : "en");
+            marquerActif();
         }
 
         var langue = lireLangue();
