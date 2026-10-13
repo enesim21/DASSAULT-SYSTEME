@@ -73,6 +73,7 @@ nav > img {
 
 body {
     padding-top: 80px;
+     background-color: #E9F6FD;
 }
 
 
@@ -110,7 +111,7 @@ p {
 }
 
 
-/* ---------- FRISE ---------- */
+
 
 .frise {
     max-width: 1000px;
@@ -220,7 +221,7 @@ p {
 }
 
 
-/* Chevron */
+
 .deplier summary::after {
     content: "";
 
@@ -249,7 +250,6 @@ p {
     display: flex;
     align-items: flex-start;
     gap: 30px;
-
     padding: 25px;
 }
 
@@ -267,11 +267,8 @@ p {
 .contenu-image {
     width: 300px;
     flex-shrink: 0;
-
     aspect-ratio: 4 / 3;
-
     overflow: hidden;
-
     background-color: #eaf4f8;
     border: 2px dashed #005386;
     border-radius: 6px;
@@ -288,7 +285,7 @@ p {
 }
 
 
-/* ---------- NOTE ---------- */
+
 
 .note {
     max-width: 1000px;
@@ -298,7 +295,7 @@ p {
 }
 
 
-/* ---------- FOOTER ---------- */
+
 
 footer {
     width: 100%;
@@ -315,8 +312,6 @@ footer p {
     color: #ffffff;
 }
 
-
-/* ---------- PETIT ÉCRAN ---------- */
 
 @media (max-width: 800px) {
 
