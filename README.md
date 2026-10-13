@@ -58,7 +58,7 @@ DASSAULT-SYSTEME
 
 ## Choix de conception
 
-- **Charte graphique commune** : Sami a réalisé un « style tile » pour le groupe. Toutes les pages utilisent la même palette de couleurs (#293947, #0B5D75, #429DAD, #BAE9EA, #E9F6FD) et la police Open Sans pour le menu.
+- **Charte graphique commune** : Sami a réalisé un « style tile » pour le groupe. Toutes les pages utilisent la même palette de couleurs (#293947, #0B5D75, #429DAD, #BAE9EA, #E9F6FD) et la police Space Grotesk. Le fond des pages est #E9F6FD.
 - **Barre de navigation et pied de page identiques** sur toutes les pages, regroupés dans `css/commun.css`. Le lien de la page ouverte est mis en gras dans le menu, et chaque pied de page indique l'auteur de la page.
 - **Bannière et titre** de même taille sur les pages de contenu, sur le modèle de la page Produits.
 - **Traduction français / anglais** : un bouton discret dans le menu permet de passer le site en anglais. Le script `js/traduction.js` remplace les textes de la page à partir d'un dictionnaire, et garde la langue choisie d'une page à l'autre.
