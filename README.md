@@ -4,6 +4,10 @@
 
 [Site web Dassault Systèmes (GitHub Pages)](https://enesim21.github.io/DASSAULT-SYSTEME/)
 
+Le site est également hébergé en miroir sur GitLab Pages et Bitbucket Pages (groupe de 5 membres) :
+- [GitLab Pages](https://dassault-systeme-79006b.gitlab.io/)
+- [Bitbucket Pages](https://dassaultsysteme.bitbucket.io/)
+
 Dépôt du projet : [github.com/enesim21/DASSAULT-SYSTEME](https://github.com/enesim21/DASSAULT-SYSTEME)
 
 ## Membres du groupe :
@@ -17,7 +21,6 @@ Dépôt du projet : [github.com/enesim21/DASSAULT-SYSTEME](https://github.com/en
 ## Présentation
 
 Ce dépôt correspond à un site web créé en HTML, CSS et JavaScript dans le cadre de la SAÉ 1.05-06 au département Informatique de l'IUT Nord Franche-Comté (Belfort), par les étudiants du groupe S1A1.
-
 Le site présente l'entreprise française Dassault Systèmes, spécialisée dans les logiciels de conception 3D et les jumeaux virtuels. Il revient sur son histoire, ses domaines d'activité, ses principaux produits, son économie et son empreinte écologique. Chaque membre du groupe a réalisé au moins une page, avec le nom de son auteur indiqué en pied de page.
 
 Le site est disponible en français et en anglais grâce à un bouton de traduction présent dans la barre de navigation.
@@ -72,7 +75,6 @@ Les tests W3C et EcoIndex ont été faits par **Enes AVSAR**.
 **Auteur : Sami BEN SLIMA**  
 
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fenesim21.github.io%2FDASSAULT-SYSTEME%2Findex.html) (0 erreur)
-
 <img src="doc/w3c_index.jpg" width="400" alt="capture d'écran de la validation W3C de la page d'accueil">
 
 <img src="doc/ecoindex_index.jpg" width="400" alt="capture d'écran EcoIndex de la page d'accueil (note A)">
@@ -100,7 +102,6 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 ### Produits
 
 **Auteur : Marius BAUDON--RIGAL**  
-
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fenesim21.github.io%2FDASSAULT-SYSTEME%2Fproduits.html) (0 erreur)
 
 <img src="doc/w3c_produits.jpg" width="400" alt="capture d'écran de la validation W3C de la page Produits">
@@ -128,7 +129,6 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 <img src="doc/ecoindex_ecologie.jpg" width="400" alt="capture d'écran EcoIndex de la page Écologie (note A)">
 
 ## Répartition du travail
-
 ### Coordination du groupe
 
 - Sami BEN SLIMA (référent) : organisation du groupe, « style tile » et charte graphique
