@@ -192,27 +192,20 @@ p {
 
 .deplier summary {
     min-height: 110px;
-
     display: flex;
     align-items: center;
-
     position: relative;
-
     padding: 15px 70px 15px 25px;
-
     color: #005386;
-    background-color: #eaf4f8;
-
+    background-color: white; 
     font-size: 24px;
     font-weight: bold;
-
     cursor: pointer;
     user-select: none;
 }
 
-
-.deplier summary::-webkit-details-marker {
-    display: none;
+.deplier summary:hover {
+    background-color: #E9F6FD; 
 }
 
 
