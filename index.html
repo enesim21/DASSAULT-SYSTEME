@@ -39,15 +39,17 @@
 
     <section class="section-news">
         <div>
-            <h1>Actualités</h1>
+            <h2>Actualités</h2>
+            <div class="block-blanc">
             <p class="infos-section-news">Retrouvez les dernières actualités sur Dassault Systèmes ci-contre. Ce fil
                 d'information est mis à jour
-                régulièrement donc revenez souvent jeter un oeil sur notre site !</p>
-            <h2 class="news-h3">Souscrire à la news letter :</h2>
+                régulièrement, donc revenez souvent jeter un oeil sur notre site web !</p>
+            <h2 class="news-h2">Souscrire à la news letter :</h2>
             <form>
                 <input type="text">
                 <button>Souscrire</button>
             </form>
+            </div>
         </div>
         <div class="caroussel-news">
             <button class="button-news-gauche">◄</button>
@@ -65,12 +67,20 @@
                                     la prise de décision, la sécurité et la performance des projets ferroviaires en
                                     combinant l'IA scientifique et la modélisation 3D. Grâce à cette approche intégrée,
                                     les
-                                    ingénieurs peuvent simuler et tester des solutions avant leur mise en œuvre dans le
-                                    monde réel.</p>
+                                    ingénieurs peuvent simuler et tester des solutions avant leur mise en œuvre réelle.</p>
                             </div>
                         </div>
                         <hr>
-                        <p class="news-date">Paris, France - 24 septembre 2026</p>
+                        <div class="news-date">
+                            <div>
+                                <img src="images/accueil/localisation.png" alt="">
+                                <p>Paris, France</p>
+                            </div>
+                            <div>
+                                <img src="images/accueil/time.png" alt="">
+                                <p>24 septembre 2026</p>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <div class="news-block-haut">
@@ -86,7 +96,16 @@
                             </div>
                         </div>
                         <hr>
-                        <p class="news-date">Campbell, Etats-Unis - 10 septembre 2026</p>
+                        <div class="news-date">
+                            <div>
+                                <img src="images/accueil/localisation.png" alt="">
+                                <p>Campbell, Etats-Unis</p>
+                            </div>
+                            <div>
+                                <img src="images/accueil/time.png" alt="">
+                                <p>10 septembre 2026</p>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <div class="news-block-haut">
@@ -105,16 +124,40 @@
                         <hr>
                         <div class="news-date">
                             <div>
-                            <img src="images/accueil/localisation.png" alt="">
-                            <p>Velizy-Villacoublay, France</p>
+                                <img src="images/accueil/localisation.png" alt="">
+                                <p>Velizy-Villacoublay, France</p>
                             </div>
                             <div>
-                            <img src="images/accueil/time.png" alt="">
-                            <p>July 23, 2026</p>
+                                <img src="images/accueil/time.png" alt="">
+                                <p>July 23, 2026</p>
                             </div>
                         </div>
                     </li>
-                    <li></li>
+                    <li>
+                        <div class="news-block-haut">
+                            <img src="images/accueil/arisglobal.png" alt="">
+                            <div class="news-text">
+                                <h2>Rachat de ArisGlobal</h2>
+                                <p>Dassault Systèmes acquiert désormais ArisGlobal pour deux milliards de dollars dans le but de créer
+                                    une plateforme d'IA unifiée dédiée aux sciences de la vie. Ce rapprochement combine
+                                    la modélisation virtuelle et la gestion de données de santé réelles pour accélérer
+                                    le développement de thérapies sécurisées. La finalisation de cette transaction en
+                                    cash est prévue pour le second semestre 2026.
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="news-date">
+                            <div>
+                                <img src="images/accueil/localisation.png" alt="">
+                                <p>Velizy-Villacoublay, France</p>
+                            </div>
+                            <div>
+                                <img src="images/accueil/time.png" alt="">
+                                <p>July 23, 2026</p>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
             <button class="button-news-droite">►</button>
@@ -129,9 +172,9 @@
 
         function afficherSlide(index) {
             slides[indexCourant].classList.remove('news-active');
-            if (index >= slides.length) {indexCourant = 0;} 
-            else if (index < 0) {indexCourant = slides.length - 1;} 
-            else {indexCourant = index;}
+            if (index >= slides.length) { indexCourant = 0; }
+            else if (index < 0) { indexCourant = slides.length - 1; }
+            else { indexCourant = index; }
             slides[indexCourant].classList.add('news-active');
         }
         btnDroite.addEventListener('click', () => {
@@ -142,37 +185,107 @@
         });
     </script>
 
-
     <hr>
 
     <section class="section-qui">
-        <h1>Qui sommes nous</h1>
-        <div>
-            <p>Dassault Systèmes est née en 1981, issue d'une filiale de Dassault Aviation. À ses débuts, l'entreprise a
-                été créée pour développer et commercialiser CATIA, un logiciel informatique conçu par les ingénieurs de
-                Dassault Aviation pour concevoir la voilure du Mirage 50, un avion de chasse. Le logiciel fut une
-                révolution pour son époque puisque les maquettes étaient réalisées physiquement, généralement en bois,
-                ce qui était beaucoup moins pratique et précis que sur ordinateur. Pour s’imposer sur le marché
-                international, l'entreprise s'est ensuite appuyée sur un grand partenariat avec IBM, un géant américain
-                de l'informatique, pour diffuser mondialement son outil de conception 3D.</p>
-            <img src="images/accueil/presentation1.png" alt="Les débuts de Dassault Systèmes avec CATIA">
+        <h2>Qui sommes nous</h2>
+        <div class="section-qui-row">
+            <div class="block-blanc text-block">
+                <p>Dassault Systèmes est née en 1981, issue d'une filiale de Dassault Aviation. À ses débuts, l'entreprise a
+                    été créée pour développer et commercialiser CATIA, un logiciel informatique conçu par les ingénieurs de
+                    Dassault Aviation pour concevoir la voilure du Mirage 50, un avion de chasse. Le logiciel fut une
+                    révolution pour son époque puisque les maquettes étaient réalisées physiquement, généralement en bois,
+                    ce qui était beaucoup moins pratique et précis que sur ordinateur. Pour s’imposer sur le marché
+                    international, l'entreprise s'est ensuite appuyée sur un grand partenariat avec IBM, un géant américain
+                    de l'informatique, pour diffuser mondialement son outil de conception 3D.</p>
+            </div>
+            <div class="block-blanc image-block">
+                <img src="images/accueil/presentation1.png" alt="Les débuts de Dassault Systèmes avec CATIA">
+            </div>
         </div>
-        <div>
-            <img src="images/accueil/presentation2.png" alt="">
-            <p>Aujourd'hui, Dassault Systèmes est un géant mondial du logiciel d'ingénierie, spécialisé dans la
-                modélisation 3D et le suivi du cycle de vie des produits. Grâce à sa plateforme 3DEXPERIENCE,
-                l’entreprise ne se contente plus de concevoir des logiciels, elle donne désormais aux industriels de
-                multiples domaines (aéronautique, automobile, santé, énergie) la capacité de créer des « jumeaux
-                virtuels ». Ces modèles leur permettent de simuler, tester et optimiser des produits ou des processus
-                complexes tels que des organes humains et des usines entières avant même leur fabrication et leur mise
-                en service tout en augmentant nettement les cadences de production pour les clients.</p>
+        <div class="section-qui-row">
+            <div class="block-blanc image-block">
+                <img src="images/accueil/presentation2.png" alt="">
+            </div>
+            <div class="block-blanc text-block">
+                <p>Aujourd'hui, Dassault Systèmes est un géant mondial du logiciel d'ingénierie, spécialisé dans la
+                    modélisation 3D et le suivi du cycle de vie des produits. Grâce à sa plateforme 3DEXPERIENCE,
+                    l’entreprise ne se contente plus de concevoir des logiciels, elle donne désormais aux industriels de
+                    multiples domaines (aéronautique, automobile, santé, énergie) la capacité de créer des « jumeaux
+                    virtuels ». Ces modèles leur permettent de simuler, tester et optimiser des produits ou des processus
+                    complexes tels que des organes humains et des usines entières avant même leur fabrication et leur mise
+                    en service tout en augmentant nettement les cadences de production pour les clients.</p>
+            </div>
         </div>
     </section>
 
     <hr class="sections-ligne">
 
+    <section class="section-chiffres">
+        <h2>Notre entreprise en chiffres clés</h2>
+        <ul class="chiffres-container">
+            <li>
+                <div class="chiffre-card">
+                    <div class="cercle-chiffres">
+                        <p>45 ans</p>
+                    </div>
+                    <p class="chiffre-texte">Cela fait plusieurs décennies que Dassault Systèmes est présent dans le secteur en tant que pionnier.</p>
+                    <hr>
+                    <p class="text-decouvrir">Découvrez notre page "Histoire"</p>
+                    <a class="button-visiter" href="index.html">Visiter</a>
+                </div>
+            </li>
+            <li>
+                <div class="chiffre-card">
+                    <div class="cercle-chiffres">
+                        <p>3</p>
+                    </div>
+                    <p class="chiffre-texte">Nous couvrons 3 grands secteurs d'activité pour aider au mieux nos clients dans plus de 12 domaines.</p>
+                    <hr>
+                    <p class="text-decouvrir">Découvrez notre page "Domaines"</p>
+                    <a class="button-visiter" href="domaines.html">Visiter</a>
+                </div>
+            </li>
+            <li>
+                <div class="chiffre-card">
+                    <div class="cercle-chiffres">
+                        <p>12</p>
+                    </div>
+                    <p class="chiffre-texte">Nous avons conçu 12 logiciels pour que dans chaque domaine nos clients puissent s'ajuster.</p>
+                    <hr>
+                    <p class="text-decouvrir">Découvrez notre page "Produits"</p>
+                    <a class="button-visiter" href="produits.html">Visiter</a>
+                </div>
+            </li>
+            <li>
+                <div class="chiffre-card">
+                    <div class="cercle-chiffres">
+                        <p>1.5x</p>
+                    </div>
+                    <p class="chiffre-texte">De 2021 à 2025, l'entreprise a eu un résultat net augmentant de plus d'1,5 fois, ce qui la rend pérenne.</p>
+                    <hr>
+                    <p class="text-decouvrir">Découvrez notre page "Economie"</p>
+                    <a class="button-visiter" href="produits.html">Visiter</a>
+                </div>
+            </li>
+            <li>
+                <div class="chiffre-card">
+                    <div class="cercle-chiffres">
+                        <p>-78.3%</p>
+                    </div>
+                    <p class="chiffre-texte">Nous avons montré que nous surveillons notre enmpreinte carbone avec -78.3% d'émissions de CO2 de 2021 à 2025.</p>
+                    <hr>
+                    <p class="text-decouvrir">Découvrez notre page "Ecologie"</p>
+                    <a class="button-visiter" href="ecologie.html">Visiter</a>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <hr class="sections-ligne">
+
     <section class="section-clients">
-        <h1>Nos clients nous font confiance</h1>
+        <h2>Nos clients nous font confiance</h2>
         <ul class="clients">
             <li>
                 <div class="client1">
@@ -215,13 +328,8 @@
         </ul>
     </section>
 
-
-    <section>
-        <h1></h1>
-    </section>
-
     <footer>
-        <p>Auteur : Sami</p>
+        <p class="auteur">Auteur : Sami</p>
     </footer>
 
 </body>
