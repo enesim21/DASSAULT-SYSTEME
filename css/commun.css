@@ -1,29 +1,151 @@
-/* Styles communs à toutes les pages : pied de page et bouton de langue */
+/* Styles communs à toutes les pages : barre de navigation, bouton de langue et pied de page.
+   Ce fichier est chargé après le CSS de chaque page : il impose le même rendu partout. */
 
-footer {
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+/* ---------- Barre de navigation ---------- */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
     width: 100%;
     height: auto;
-    margin: 80px 0 0;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    background-color: #293947;
-    color: #ffffff;
-    text-align: center;
-    font-size: 14px;
-}
-
-footer p {
+    min-height: 80px;
     margin: 0;
-    color: #ffffff;
+    padding: 0;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
 }
 
-.bouton-langue {
+.navbar,
+.navbar * {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.navbar > img {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+.navbar .nav-links {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-links-list {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin: 0;
+    padding: 0 40px 0 0;
+    font-size: 19px;
+    line-height: 1.6;
+    list-style: none;
+}
+
+.navbar .nav-links-list li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar .navlink {
+    color: #767676;
+    font-size: 19px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.navbar .navlink:hover,
+.navbar .navlink.actif {
+    color: #015486;
+    text-decoration: none;
+}
+
+.navbar .navlink.actif {
+    font-weight: 700;
+}
+
+.navbar .navlink strong {
+    color: #015486;
+    font-weight: 700;
+}
+
+/* ---------- Bouton de langue ---------- */
+
+.navbar .bouton-langue {
+    margin: 0;
     padding: 4px 10px;
     border: 1px solid #0B5D75;
     border-radius: 4px;
     background-color: transparent;
     color: #0B5D75;
-    font-family: inherit;
     font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
     cursor: pointer;
+}
+
+/* ---------- Pied de page ---------- */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+    margin: 80px 0 0;
+    padding: 0 20px;
+    background-color: #293947;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* ---------- Petits écrans ---------- */
+
+@media (max-width: 950px) {
+    .navbar .nav-links-list {
+        flex-wrap: wrap;
+        gap: 10px 18px;
+        font-size: 17px;
+    }
+
+    .navbar .navlink {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar > img {
+        width: 140px;
+        margin: 8px;
+    }
+
+    .navbar .nav-links-list {
+        gap: 8px 14px;
+        padding: 6px 10px 6px 0;
+    }
+
+    .navbar .navlink {
+        font-size: 13px;
+    }
 }
