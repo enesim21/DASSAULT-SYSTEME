@@ -1,20 +1,14 @@
-# SAÉ S1.05-06 – Dassault Systèmes
+# SAÉ S1.05-06 - Dassault Systèmes
 
-Bienvenue sur le dépôt de notre site web consacré à **Dassault Systèmes**, réalisé en groupe dans le cadre de la SAÉ 1.05-06 en première année de BUT Informatique, à l'IUT Nord Franche-Comté (Belfort), groupe S1A1.
+Ce dépôt contient le site web que nous avons réalisé en groupe pour la SAÉ 1.05-06, en première année de BUT Informatique à l'IUT Nord Franche-Comté (Belfort, groupe S1A1). Il présente l'entreprise française Dassault Systèmes, spécialisée dans les logiciels de conception 3D et les jumeaux virtuels : son histoire, ses domaines d'activité, ses produits, son économie et son empreinte écologique. Chaque membre du groupe a réalisé au moins une page, et son nom apparaît dans le pied de page.
 
-## Où voir le site ?
+Le site existe en français et en anglais, avec un bouton de traduction dans la barre de navigation.
 
-Le site est en ligne sur trois plateformes. Nous sommes cinq dans le groupe, et il fallait donc le publier ailleurs que sur GitHub uniquement :
+## Accès au site
 
-- [GitHub Pages](https://enesim21.github.io/DASSAULT-SYSTEME/) (version principale)
-- [GitLab Pages](https://dassault-systeme-79006b.gitlab.io/)
-- [Bitbucket Pages](https://dassaultsysteme.bitbucket.io/)
+Le site est hébergé sur [GitHub Pages](https://enesim21.github.io/DASSAULT-SYSTEME/), et aussi sur [GitLab Pages](https://dassault-systeme-79006b.gitlab.io/) et [Bitbucket Pages](https://dassaultsysteme.bitbucket.io/) puisque le groupe compte cinq membres. Le code source se trouve dans le [dépôt GitHub du projet](https://github.com/enesim21/DASSAULT-SYSTEME).
 
-Les trois versions présentent le même contenu. Le code source se trouve dans le [dépôt GitHub du projet](https://github.com/enesim21/DASSAULT-SYSTEME).
-
-## Qui sommes-nous ?
-
-Nous sommes cinq étudiants du groupe S1A1. N'hésitez pas à nous écrire :
+## Membres du groupe
 
 - [Sami BEN SLIMA (référent)](mailto:sami.ben-slima@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 - [Enes AVSAR](mailto:enes.avsar@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
@@ -22,13 +16,7 @@ Nous sommes cinq étudiants du groupe S1A1. N'hésitez pas à nous écrire :
 - [Marius BAUDON--RIGAL](mailto:marius.baudon--rigal@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 - [Moubaraka AHAMAD](mailto:moubaraka.ahamad@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 
-## De quoi parle le site ?
-
-Dassault Systèmes est une entreprise française spécialisée dans les logiciels de conception 3D et les « jumeaux virtuels ». Notre site raconte son histoire, présente ses domaines d'activité et ses principaux produits, puis s'intéresse à son économie et à son empreinte écologique. Chacun de nous a construit au moins une page et signe son travail dans le pied de page.
-
-Le site est disponible en français et en anglais : un petit bouton dans la barre de navigation permet de changer de langue.
-
-## Comment le dépôt est organisé
+## Arborescence du site
 
 ```
 DASSAULT-SYSTEME
@@ -59,22 +47,21 @@ DASSAULT-SYSTEME
 └── doc                 (captures W3C, EcoIndex et contributeurs)
 ```
 
-## Nos choix de conception
+## Choix de conception
 
-- **Une charte graphique commune.** Sami a préparé un « style tile » pour le groupe. Toutes les pages partagent la même palette (#293947, #0B5D75, #429DAD, #BAE9EA, #E9F6FD), la police Space Grotesk et le même fond clair, #E9F6FD.
-- **Un menu et un pied de page identiques partout.** Ils sont regroupés dans `css/commun.css`. Le lien de la page en cours apparaît en gras dans le menu, et chaque pied de page indique qui a réalisé la page.
-- **Des bannières et des titres de même taille** sur les pages de contenu, en reprenant le modèle de la page Produits.
-- **Une version anglaise.** Le script `js/traduction.js` remplace les textes de la page à partir d'un dictionnaire, et retient la langue choisie quand on passe d'une page à l'autre.
-- **Des graphiques faits maison.** Ceux de la page Économie ont été réalisés avec Excel à partir des chiffres publiés par Dassault Systèmes, puis exportés en images.
-- **Un site léger.** Nous avons redimensionné et compressé les images pour que chaque page obtienne la note A sur EcoIndex.
+Sami a réalisé un style tile pour le groupe. Toutes les pages utilisent donc la même palette de couleurs (#293947, #0B5D75, #429DAD, #BAE9EA, #E9F6FD), la police Space Grotesk et le même fond clair, #E9F6FD.
 
-## Les tests : W3C et EcoIndex
+La barre de navigation et le pied de page sont identiques sur toutes les pages et regroupés dans `css/commun.css`. Le lien de la page ouverte est mis en gras dans le menu, et chaque pied de page indique l'auteur de la page. Les bannières et les titres ont la même taille sur les pages de contenu, sur le modèle de la page Produits.
 
-Nous avons vérifié chaque page avec le [validateur W3C](https://validator.w3.org/nu/) et avec [EcoIndex](https://www.ecoindex.fr/). Ces tests ont été faits par **Enes AVSAR**. Voici les résultats page par page.
+Pour la traduction, le script `js/traduction.js` remplace les textes de la page à partir d'un dictionnaire et garde la langue choisie d'une page à l'autre. Les graphiques de la page Économie ont été faits avec Excel à partir des chiffres publiés par Dassault Systèmes, puis exportés en images. Les images ont été redimensionnées et compressées pour que chaque page obtienne la note A sur EcoIndex.
+
+## Validation des pages
+
+Toutes les pages ont été testées avec le [Nu Html Checker](https://validator.w3.org/nu/) (W3C) et avec [EcoIndex](https://www.ecoindex.fr/). Ces tests ont été faits par Enes AVSAR.
 
 ### Page d'accueil
 
-Réalisée par **Sami BEN SLIMA**. Le validateur W3C ne signale aucune erreur sur cette page ([voir le détail](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fenesim21.github.io%2FDASSAULT-SYSTEME%2Findex.html)), et EcoIndex lui donne la note A.
+Page réalisée par Sami BEN SLIMA. La validation W3C ne donne aucune erreur ([détail](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fenesim21.github.io%2FDASSAULT-SYSTEME%2Findex.html)) et EcoIndex donne la note A.
 
 <img src="doc/w3c_index.jpg" width="400" alt="capture d'écran de la validation W3C de la page d'accueil">
 
@@ -82,7 +69,7 @@ Réalisée par **Sami BEN SLIMA**. Le validateur W3C ne signale aucune erreur su
 
 ### Histoire
 
-Réalisée par **Moubaraka AHAMAD**. Le validateur W3C ne signale aucune erreur sur cette page ([voir le détail](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fenesim21.github.io%2FDASSAULT-SYSTEME%2Fhistoire.html)), et EcoIndex lui donne la note A.
+Page réalisée par Moubaraka AHAMAD. La validation W3C ne donne aucune erreur ([détail](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fenesim21.github.io%2FDASSAULT-SYSTEME%2Fhistoire.html)) et EcoIndex donne la note A.
 
 <img src="doc/w3c_histoire.jpg" width="400" alt="capture d'écran de la validation W3C de la page Histoire">
 
@@ -90,7 +77,7 @@ Réalisée par **Moubaraka AHAMAD**. Le validateur W3C ne signale aucune erreur 
 
 ### Domaines
 
-Réalisée par **Jonathan BUHL**. Le validateur W3C ne signale aucune erreur sur cette page ([voir le détail](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fenesim21.github.io%2FDASSAULT-SYSTEME%2Fdomaines.html)), et EcoIndex lui donne la note A.
+Page réalisée par Jonathan BUHL. La validation W3C ne donne aucune erreur ([détail](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fenesim21.github.io%2FDASSAULT-SYSTEME%2Fdomaines.html)) et EcoIndex donne la note A.
 
 <img src="doc/w3c_domaines.jpg" width="400" alt="capture d'écran de la validation W3C de la page Domaines">
 
@@ -98,7 +85,7 @@ Réalisée par **Jonathan BUHL**. Le validateur W3C ne signale aucune erreur sur
 
 ### Produits
 
-Réalisée par **Marius BAUDON--RIGAL**. Le validateur W3C ne signale aucune erreur sur cette page ([voir le détail](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fenesim21.github.io%2FDASSAULT-SYSTEME%2Fproduits.html)), et EcoIndex lui donne la note A.
+Page réalisée par Marius BAUDON--RIGAL. La validation W3C ne donne aucune erreur ([détail](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fenesim21.github.io%2FDASSAULT-SYSTEME%2Fproduits.html)) et EcoIndex donne la note A.
 
 <img src="doc/w3c_produits.jpg" width="400" alt="capture d'écran de la validation W3C de la page Produits">
 
@@ -106,7 +93,7 @@ Réalisée par **Marius BAUDON--RIGAL**. Le validateur W3C ne signale aucune err
 
 ### Économie
 
-Réalisée par **Enes AVSAR**. Le validateur W3C ne signale aucune erreur sur cette page ([voir le détail](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fenesim21.github.io%2FDASSAULT-SYSTEME%2Feconomie.html)), et EcoIndex lui donne la note A.
+Page réalisée par Enes AVSAR. La validation W3C ne donne aucune erreur ([détail](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fenesim21.github.io%2FDASSAULT-SYSTEME%2Feconomie.html)) et EcoIndex donne la note A.
 
 <img src="doc/w3c_economie.jpg" width="400" alt="capture d'écran de la validation W3C de la page Économie">
 
@@ -114,38 +101,19 @@ Réalisée par **Enes AVSAR**. Le validateur W3C ne signale aucune erreur sur ce
 
 ### Écologie
 
-Réalisée par **Jonathan BUHL**. Le validateur W3C ne signale aucune erreur sur cette page ([voir le détail](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fenesim21.github.io%2FDASSAULT-SYSTEME%2Fecologie.html)), et EcoIndex lui donne la note A.
+Page réalisée par Jonathan BUHL. La validation W3C ne donne aucune erreur ([détail](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fenesim21.github.io%2FDASSAULT-SYSTEME%2Fecologie.html)) et EcoIndex donne la note A.
 
 <img src="doc/w3c_ecologie.jpg" width="400" alt="capture d'écran de la validation W3C de la page Écologie">
 
 <img src="doc/ecoindex_ecologie.jpg" width="400" alt="capture d'écran EcoIndex de la page Écologie (note A)">
 
-## Qui a fait quoi ?
+## Répartition du travail
 
-### Coordination du groupe
+Sami BEN SLIMA est le référent du groupe : il a organisé le travail, réalisé le style tile et la page d'accueil. Moubaraka AHAMAD a fait la page Histoire, Jonathan BUHL les pages Domaines et Écologie, et Marius BAUDON--RIGAL la page Produits. Enes AVSAR a fait la page Économie et ses graphiques Excel, la barre de navigation et le pied de page communs (`css/commun.css`), la traduction français / anglais (`js/traduction.js`), les tests W3C et EcoIndex, la compression des images et ce README.
 
-- Sami BEN SLIMA (référent) : organisation du groupe, « style tile » et charte graphique
+## Contributeurs
 
-### Les pages du site
-
-- Sami BEN SLIMA
-  - Page d'accueil
-- Moubaraka AHAMAD
-  - Page Histoire
-- Jonathan BUHL
-  - Page Domaines
-  - Page Écologie
-- Marius BAUDON--RIGAL
-  - Page Produits
-- Enes AVSAR
-  - Page Économie et ses graphiques (Excel)
-  - Barre de navigation et pied de page communs (`css/commun.css`)
-  - Traduction français / anglais (`js/traduction.js`)
-  - Tests W3C et EcoIndex, compression des images, README
-
-## Les contributeurs
-
-Pour s'y retrouver dans l'historique du dépôt, voici le lien entre les comptes GitHub et les membres du groupe :
+Correspondance entre les comptes GitHub et les membres du groupe :
 
 | Compte GitHub | Membre |
 |---|---|
