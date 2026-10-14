@@ -10,7 +10,7 @@ Le site est hébergé sur [GitHub Pages](https://enesim21.github.io/DASSAULT-SYS
 
 ## Membres du groupe
 
-- [Sami BEN SLIMA (référent)](mailto:sami.ben-slima@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
+- [Sami BEN SLIMA (référent)](mailto:sami.ben_slima@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 - [Enes AVSAR](mailto:enes.avsar@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 - [Jonathan BUHL](mailto:jonathan.buhl@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 - [Marius BAUDON--RIGAL](mailto:marius.baudon--rigal@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
