@@ -28,7 +28,6 @@ body {
     line-height: 1.6;
 }
 
-/* ---------- Barre de navigation (style tile) ---------- */
 
 .navbar {
     background-color: var(--blanc);
@@ -73,7 +72,6 @@ img {
     max-width: 100%;
 }
 
-/* ---------- Bannière et titre (même taille que la page Produits) ---------- */
 
 .banner-img {
     display: block;
@@ -95,7 +93,6 @@ h1 {
     text-align: center;
 }
 
-/* ---------- Cartes (style tile) ---------- */
 
 .content {
     width: 90%;
@@ -125,7 +122,6 @@ h1 {
     font-style: italic;
 }
 
-/* ---------- Chiffres clés ---------- */
 
 .kpis {
     display: grid;
@@ -153,7 +149,6 @@ h1 {
     font-size: 14px;
 }
 
-/* ---------- Tableau ---------- */
 
 table {
     width: 100%;
@@ -181,7 +176,6 @@ th {
     font-weight: 700;
 }
 
-/* ---------- Liste ---------- */
 
 ul.clean {
     margin-top: 10px;
@@ -196,7 +190,6 @@ ul.clean li:last-child {
     border-bottom: none;
 }
 
-/* ---------- Frise des objectifs ---------- */
 
 .timeline {
     display: flex;
@@ -227,7 +220,6 @@ ul.clean li:last-child {
     font-size: 15px;
 }
 
-/* ---------- Responsive ---------- */
 
 @media (max-width: 950px) {
     .nav-links-list {
