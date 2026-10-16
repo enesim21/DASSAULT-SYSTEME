@@ -1,16 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap");
-
-:root {
-    --sombre: #293947;
-    --petrole: #0B5D75;
-    --turquoise: #429DAD;
-    --cyan: #BAE9EA;
-    --clair: #E9F6FD;
-    --blanc: #FFFFFF;
-    --fond: #D6E1E6;
-    --gris: #767676;
-    --texte: #1F1F1F;
-}
 
 * {
     margin: 0;
