@@ -109,7 +109,7 @@ Page réalisée par Jonathan BUHL. La validation W3C ne donne aucune erreur ([d�
 
 ## Répartition du travail
 
-Sami BEN SLIMA est le référent du groupe : il a organisé le travail, réalisé le style tile et la page d'accueil. Moubaraka AHAMAD a fait la page Histoire, Jonathan BUHL les pages Domaines et Écologie, et Marius BAUDON--RIGAL la page Produits. Enes AVSAR a fait la page Économie et ses graphiques Excel, la barre de navigation et le pied de page communs (`css/commun.css`), la traduction français / anglais (`js/traduction.js`), les tests W3C et EcoIndex, la compression des images et ce README.
+Sami est le référent du groupe : il a organisé le travail, réalisé le style tile et la page d'accueil. Moubaraka a fait la page Histoire, Jonathan les pages Domaines et Écologie, et Marius la page Produits. Enes a fait la page Économie et ses graphiques Excel. Toutes les autres tâches ont été en général réalisé par l'ensemble des membres du groupe : barre de navigation, style commun, traduction français/anglais, tests W3C/EcoIndex, compression des images et ce README.
 
 ## Contributeurs
 
